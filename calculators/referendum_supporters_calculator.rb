@@ -29,6 +29,20 @@ class ReferendumSupportersCalculator
       end
     end
 
+    # 1. Calculate `supporting_total_contributions` / `opposing_total_contributions`
+    [
+      # { bal_name => rows }     , calculation name
+      [supporting_by_measure_name, :supporting_total_contributions],
+      [opposing_by_measure_name, :opposing_total_contributions],
+    ].each do |rows_by_bal_name, calculation_name|
+      rows_by_bal_name.each do |bal_name, rows|
+        ballot_measure = ballot_measure_from_name(bal_name)
+        ballot_measure.save_calculation(calculation_name,
+                                        rows.sum { |row| row['Total_Amount'] })
+      end
+    end
+
+    # 2. Calculate `supporting_organizations` / `opposing_organizations`
     [
       # { bal_name => rows }     , calculation name
       [supporting_by_measure_name, :supporting_organizations],

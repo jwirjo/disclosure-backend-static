@@ -111,7 +111,7 @@ OaklandReferendum.find_each do |referendum|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       supporting_organizations:
         referendum.calculation(:supporting_organizations) || [],
-      total_contributions: 456,
+      total_contributions: referendum.calculation(:supporting_total_contributions),
       contributions_by_region: {
         within_oakland: 123,
         within_california: 111,
@@ -124,7 +124,7 @@ OaklandReferendum.find_each do |referendum|
     f.puts JSON.pretty_generate(referendum.as_json.merge(
       opposing_organizations:
         referendum.calculation(:opposing_organizations) || [],
-      total_contributions: 456,
+      total_contributions: referendum.calculation(:opposing_total_contributions),
       contributions_by_region: {
         within_oakland: 123,
         within_california: 111,

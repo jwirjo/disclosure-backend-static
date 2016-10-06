@@ -123,7 +123,6 @@ class CandidateExpendituresByType
           FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
-          AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
           UNION ALL
           SELECT "FPPC"::varchar AS "FilerStateId", '' AS "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"

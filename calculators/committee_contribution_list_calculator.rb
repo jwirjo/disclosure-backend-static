@@ -21,7 +21,7 @@ class CommitteeContributionListCalculator
       SELECT
         "FilerStateId"::varchar,
         "Calculated_Amount" AS "Tran_Amt1",
-        "Enty_NamF" AS "Tran_NamF",
+        "Tran_NamF" AS "Tran_NamF",
         "Tran_NamL" AS "Tran_NamL",
         "Ctrib_Date" AS "Tran_Date"
       FROM "efile_COAK_2016_497"

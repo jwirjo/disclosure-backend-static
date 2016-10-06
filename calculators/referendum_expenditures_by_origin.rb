@@ -33,20 +33,20 @@ class ReferendumExpendituresByOrigin
         SELECT "FilerStateId",
         CASE
           WHEN LOWER("Tran_City") = 'oakland' THEN 'Within Oakland'
-          WHEN UPPER("Tran_State") = 'CA' THEN 'Within California'
+          WHEN UPPER("Tran_ST") = 'CA' THEN 'Within California'
           ELSE 'Out of State'
         END AS locale,
         SUM("Tran_Amt1") AS total
         FROM (
-          SELECT "FilerStateId", "Tran_City", "Tran_State", "Tran_Amt1", "Tran_Id"
+          SELECT "FilerStateId", "Tran_City", "Tran_ST", "Tran_Amt1", "Tran_Id"
           FROM "efile_COAK_2016_A-Contributions"
           UNION
-          SELECT "FilerStateId"::varchar, "Tran_City", "Tran_State", "Tran_Amt1", "Tran_Id"
+          SELECT "FilerStateId"::varchar, "Tran_City", "Tran_ST", "Tran_Amt1", "Tran_Id"
           FROM "efile_COAK_2016_C-Contributions"
           UNION
           SELECT "FilerStateId"::varchar,
-            "Enty_City" as "Tran_City",
-            "Enty_ST" as "Tran_State",
+            "Tran_City" as "Tran_City",
+            "Tran_ST" as "Tran_ST",
             "Calculated_Amount" as "Tran_Amt1", "Tran_Id"
           FROM "efile_COAK_2016_497"
           WHERE "Form_Type" = 'F497P1'

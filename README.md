@@ -72,8 +72,8 @@ your calcualtion as SQL, put it in a calcuator file like so:
       SQL
 
       @results.each do |row|
-        # make sure Filer_ID is returned as a column by your query!
-        candidate = @candidates_by_filer_id[row['Filer_ID'].to_i]
+        # make sure FilerStateId is returned as a column by your query!
+        candidate = @candidates_by_filer_id[row['FilerStateId'].to_i]
 
         # change this!
         candidate.save_calculation(:your_thing, row[column_with_your_desired_data])
@@ -82,7 +82,7 @@ your calcualtion as SQL, put it in a calcuator file like so:
   end
   ```
 3. You will want to fill in the SQL query and make sure that the query selects
-   the `Filer_ID` column.
+   the `FilerStateId` column.
 4. Make sure to update the call to `candidate.save_calculation`. That method
    will serialize its second argument as JSON, so it can store any kind of data.
 5. Your calculation can be retrieved with `candidate.calculation(:your_thing)`.

@@ -97,16 +97,10 @@ import2: downloads/netfile_COAK_2016_Summary.csv downloads/netfile_COAK_2016_Tra
 	./remove_duplicate_transactions.sh
 
 downloads/netfile_COAK_2016_Summary.csv:
-	./download_netfile.sh COAK 2016 summary | \
-		sed '1s/FilerStateId/Filer_ID/g' | \
-		sed '1s/Tran_Id/Tran_ID/g' \
-		> $@
+	./download_netfile.sh COAK 2016 summary > $@
 
 downloads/netfile_COAK_2016_Transactions.csv:
-	./download_netfile.sh COAK 2016 transaction | \
-		sed '1s/FilerStateId/Filer_ID/g' | \
-		sed '1s/Tran_Id/Tran_ID/g' \
-		> $@
+	./download_netfile.sh COAK 2016 transaction > $@
 
 inputs/oakland_candidates.csv:
 	wget -q -O- \

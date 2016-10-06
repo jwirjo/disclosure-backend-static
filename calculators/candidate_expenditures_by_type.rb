@@ -69,25 +69,25 @@ class CandidateExpendituresByType
       # except those that are already in Schedule E.  Note that
       # Expn_Code is not set in 496 so we cannot just UNION them out.
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
+        SELECT "FilerStateId", "Expn_Code", SUM("Amount") AS "Total"
         FROM
           (
-          SELECT "Filer_ID", "Expn_Code", "Amount"
+          SELECT "FilerStateId", "Expn_Code", "Amount"
           FROM "efile_COAK_2016_E-Expenditure"
           UNION ALL
-          SELECT "FPPC"::varchar AS "Filer_ID", '' AS "Expn_Code", "Amount"
+          SELECT "FPPC"::varchar AS "FilerStateId", '' AS "Expn_Code", "Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
-              WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
+              WHERE "outer"."FilerStateId"::varchar = "inner"."FilerStateId"
               AND "outer"."Exp_Date" = "inner"."Expn_Date"
               AND "outer"."Amount" = "inner"."Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
           ) U
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Expn_Code", "Filer_ID"
-        ORDER BY "Expn_Code", "Filer_ID"
+        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Expn_Code", "FilerStateId"
+        ORDER BY "Expn_Code", "FilerStateId"
       SQL
 
       # 497 does not contain "Expn_Code" making this calculator pretty useless
@@ -95,17 +95,17 @@ class CandidateExpendituresByType
       # To make the numbers line up closer, we'll bucket those all under "Not
       # Stated".
       late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-        SELECT "Filer_ID", '' AS "Expn_Code", SUM("Amount") AS "Total"
+        SELECT "FilerStateId", '' AS "Expn_Code", SUM("Amount") AS "Total"
         FROM "efile_COAK_2016_497"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         AND "Form_Type" = 'F497P2'
-        GROUP BY "Filer_ID"
-        ORDER BY "Filer_ID"
+        GROUP BY "FilerStateId"
+        ORDER BY "FilerStateId"
       SQL
 
       (results.to_a + late_expenditures.to_a).each do |result|
-        hash[result['Filer_ID']] ||= {}
-        hash[result['Filer_ID']][result['Expn_Code']] = result['Total']
+        hash[result['FilerStateId']] ||= {}
+        hash[result['FilerStateId']][result['Expn_Code']] = result['Total']
       end
     end
   end
@@ -117,32 +117,32 @@ class CandidateExpendituresByType
       # except those that are already in Schedule E.  Note that
       # Expn_Code is not set in 496 so we cannot just UNION them out.
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Expn_Code", SUM("Amount") AS "Total"
+        SELECT "FilerStateId", "Expn_Code", SUM("Amount") AS "Total"
         FROM
-          (SELECT "FPPC"::varchar AS "Filer_ID", "Expn_Code", "Amount"
+          (SELECT "FPPC"::varchar AS "FilerStateId", "Expn_Code", "Amount"
           FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND "Committee_Type" <> 'CTL' AND "Committee_Type" <> 'CAO'
           UNION ALL
-          SELECT "FPPC"::varchar AS "Filer_ID", '' AS "Expn_Code", "Amount"
+          SELECT "FPPC"::varchar AS "FilerStateId", '' AS "Expn_Code", "Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
-              WHERE "outer"."Filer_ID"::varchar = "inner"."Filer_ID"
+              WHERE "outer"."FilerStateId"::varchar = "inner"."FilerStateId"
               AND "outer"."Exp_Date" = "inner"."Expn_Date"
               AND "outer"."Amount" = "inner"."Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
           ) U
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Expn_Code", "Filer_ID"
-        ORDER BY "Expn_Code", "Filer_ID"
+        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Expn_Code", "FilerStateId"
+        ORDER BY "Expn_Code", "FilerStateId"
       SQL
 
       results.to_a.each do |result|
-        hash[result['Filer_ID']] ||= {}
-        hash[result['Filer_ID']][result['Expn_Code']] = result['Total']
+        hash[result['FilerStateId']] ||= {}
+        hash[result['FilerStateId']][result['Expn_Code']] = result['Total']
       end
     end
   end

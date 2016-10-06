@@ -17,7 +17,7 @@ class OaklandCommittee < ActiveRecord::Base
   def as_json(options = nil)
     {
       id: id,
-      filer_id: self['Filer_ID'],
+      filer_id: self['FilerStateId'],
       name: self['Filer_NamL'],
 
       website_url: self['Website'],

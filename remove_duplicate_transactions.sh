@@ -5,7 +5,7 @@ set -euo pipefail
 cat <<-QUERY | psql disclosure-backend
 DELETE FROM "efile_COAK_2016_497" late
 USING "efile_COAK_2016_A-Contributions" contributions
-WHERE contributions."Filer_ID"::varchar = late."Filer_ID"::varchar
+WHERE contributions."FilerStateId"::varchar = late."FilerStateId"::varchar
 AND (
   contributions."Tran_ID" = late."Tran_ID"
   OR (LOWER(contributions."Tran_NamL") = LOWER(late."Enty_NamL") AND contributions."Tran_Amt1" = late."Amount")
@@ -17,7 +17,7 @@ QUERY
 cat <<-QUERY | psql disclosure-backend
 DELETE FROM "efile_COAK_2016_497" late
 USING "efile_COAK_2016_C-Contributions" contributions
-WHERE contributions."Filer_ID"::varchar = late."Filer_ID"::varchar
+WHERE contributions."FilerStateId"::varchar = late."FilerStateId"::varchar
 AND (
   contributions."Tran_ID" = late."Tran_ID"
   OR (LOWER(contributions."Tran_NamL") = LOWER(late."Enty_NamL") AND contributions."Tran_Amt1" = late."Amount")
@@ -29,7 +29,7 @@ QUERY
 cat <<-QUERY | psql disclosure-backend
 DELETE FROM "efile_COAK_2016_497" late
 USING "efile_COAK_2016_E-Expenditure" expenditures
-WHERE expenditures."Filer_ID"::varchar = late."Filer_ID"::varchar
+WHERE expenditures."FilerStateId"::varchar = late."FilerStateId"::varchar
 AND (
   expenditures."Tran_ID" = late."Tran_ID"
   OR (LOWER(expenditures."Payee_NamL") = LOWER(late."Enty_NamL") AND expenditures."Amount" = late."Amount")

@@ -46,35 +46,35 @@ class CandidateContributionsByType
   def contributions_by_candidate_by_type
     @_contributions_by_candidate_by_type ||= {}.tap do |hash|
       monetary_results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
+        SELECT "FilerStateId", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
         FROM "efile_COAK_2016_A-Contributions"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Entity_Cd", "Filer_ID"
-        ORDER BY "Entity_Cd", "Filer_ID"
+        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Entity_Cd", "FilerStateId"
+        ORDER BY "Entity_Cd", "FilerStateId"
       SQL
 
       in_kind_results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
+        SELECT "FilerStateId", "Entity_Cd", SUM("Tran_Amt1") AS "Total"
         FROM "efile_COAK_2016_C-Contributions"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Entity_Cd", "Filer_ID"
-        ORDER BY "Entity_Cd", "Filer_ID"
+        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Entity_Cd", "FilerStateId"
+        ORDER BY "Entity_Cd", "FilerStateId"
       SQL
 
       # NOTE: We remove duplicate transactions on 497 that are also reported on
       # Schedule A during a preprocssing script. (See
       # `./../remove_duplicate_transactionts.sh`)
       late_results = ActiveRecord::Base.connection.execute(<<-SQL)
-        SELECT "Filer_ID", "Entity_Cd", SUM("Amount") AS "Total"
+        SELECT "FilerStateId", "Entity_Cd", SUM("Amount") AS "Total"
         FROM "efile_COAK_2016_497"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         AND "Form_Type" = 'F497P1'
-        GROUP BY "Entity_Cd", "Filer_ID"
-        ORDER BY "Entity_Cd", "Filer_ID"
+        GROUP BY "Entity_Cd", "FilerStateId"
+        ORDER BY "Entity_Cd", "FilerStateId"
       SQL
 
       (monetary_results.to_a + in_kind_results.to_a + late_results.to_a).each do |result|
-        filer_id = result['Filer_ID'].to_s
+        filer_id = result['FilerStateId'].to_s
 
         hash[filer_id] ||= {}
         hash[filer_id][result['Entity_Cd']] ||= 0
@@ -86,14 +86,14 @@ class CandidateContributionsByType
   def unitemized_contributions_by_candidate
     @_unitemized_contributions_by_candidate ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "Filer_ID", SUM("Amount_A") AS "Amount_A" FROM "efile_COAK_2016_Summary"
-        WHERE "Filer_ID" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        SELECT "FilerStateId", SUM("Amount_A") AS "Amount_A" FROM "efile_COAK_2016_Summary"
+        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
           AND "Form_Type" = 'A' AND "Line_Item" = '2'
-        GROUP BY "Filer_ID"
-        ORDER BY "Filer_ID"
+        GROUP BY "FilerStateId"
+        ORDER BY "FilerStateId"
       SQL
 
-      hash.merge!(Hash[results.map { |row| row.values_at('Filer_ID', 'Amount_A') }])
+      hash.merge!(Hash[results.map { |row| row.values_at('FilerStateId', 'Amount_A') }])
     end
   end
 end

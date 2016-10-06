@@ -23,7 +23,7 @@ class CommitteeContributionListCalculator
         "Calculated_Amount" AS "Tran_Amt1",
         "Tran_NamF" AS "Tran_NamF",
         "Tran_NamL" AS "Tran_NamL",
-        "Ctrib_Date" AS "Tran_Date"
+        "Tran_Date" AS "Tran_Date"
       FROM "efile_COAK_2016_497"
       WHERE "Form_Type" = 'F497P1'
       AND "FilerStateId"::varchar IN (#{filer_ids})

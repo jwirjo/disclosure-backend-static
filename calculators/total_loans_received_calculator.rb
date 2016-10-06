@@ -6,7 +6,7 @@ class TotalLoansReceivedCalculator
 
   def fetch
     @results = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "FilerStateId", SUM("Amount_A") AS "Amount_A"
+      SELECT "FilerStateId", SUM("Calculated_Amount_A") AS "Calculated_Amount_A"
       FROM "efile_COAK_2016_Summary"
       WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F460'
@@ -17,7 +17,7 @@ class TotalLoansReceivedCalculator
 
     @results.each do |row|
       candidate = @candidates_by_filer_id[row['FilerStateId'].to_i]
-      candidate.save_calculation(:total_loans_received, row['Amount_A'].to_f)
+      candidate.save_calculation(:total_loans_received, row['Calculated_Amount_A'].to_f)
     end
   end
 end

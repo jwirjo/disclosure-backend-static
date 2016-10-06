@@ -9,13 +9,13 @@ class ReferendumSupportersCalculator
     # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
       SELECT "FilerStateId"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
-        SUM("Amount") AS "Total_Amount"
+        SUM("Calculated_Amount") AS "Total_Calculated_Amount"
       FROM (
-        SELECT "FilerStateId", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
+        SELECT "FilerStateId", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
         FROM "efile_COAK_2016_E-Expenditure"
         WHERE "Bal_Name" IS NOT NULL
         UNION
-        SELECT "FilerStateId"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Amount"
+        SELECT "FilerStateId"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
         FROM "efile_COAK_2016_496"
         WHERE "Bal_Name" IS NOT NULL
       ) as U
@@ -23,7 +23,7 @@ class ReferendumSupportersCalculator
 
       UNION
       SELECT "FilerStateId"::varchar, "Filer_NamL", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
-        SUM("Amount") AS "Total_Amount"
+        SUM("Calculated_Amount") AS "Total_Calculated_Amount"
       FROM "efile_COAK_2016_497"
       WHERE "Bal_Name" IS NOT NULL
       AND "Form_Type" = 'F497P2'
@@ -62,7 +62,7 @@ class ReferendumSupportersCalculator
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           amount: 0,
         }
-        supporting_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Amount']
+        supporting_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Calculated_Amount']
       elsif row['Sup_Opp_Cd'] == 'O'
         opposing_by_measure_name[bal_num] ||= {}
         opposing_by_measure_name[bal_num][row['FilerStateId']] ||= {
@@ -71,7 +71,7 @@ class ReferendumSupportersCalculator
           payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
           amount: 0,
         }
-        opposing_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Amount']
+        opposing_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Calculated_Amount']
       elsif
         $stderr.puts "unknown support: #{row}"
       end

@@ -9,7 +9,7 @@ class ReferendumExpendituresByOrigin
     # Get the total expenditures.  If the contributions are less than this
     # then the remainder will be from "Unknown" locale.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "Measure_Number", "Sup_Opp_Cd", sum("Amount") AS total
+      SELECT "Measure_Number", "Sup_Opp_Cd", sum("Calculated_Amount") AS total
       FROM "efile_COAK_2016_E-Expenditure",
         oakland_name_to_number
       WHERE LOWER("Bal_Name") = LOWER("Measure_Name")
@@ -47,7 +47,7 @@ class ReferendumExpendituresByOrigin
           SELECT "FilerStateId"::varchar,
             "Enty_City" as "Tran_City",
             "Enty_ST" as "Tran_State",
-            "Amount" as "Tran_Amt1", "Tran_Id"
+            "Calculated_Amount" as "Tran_Amt1", "Tran_Id"
           FROM "efile_COAK_2016_497"
           WHERE "Form_Type" = 'F497P1'
         ) contributions

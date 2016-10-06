@@ -6,7 +6,7 @@ class TotalExpendituresCalculator
 
   def fetch
     results = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT "FilerStateId", SUM("Amount_A") AS "Amount_A"
+      SELECT "FilerStateId", SUM("Calculated_Amount_A") AS "Calculated_Amount_A"
       FROM "efile_COAK_2016_Summary"
       WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F460'
@@ -16,7 +16,7 @@ class TotalExpendituresCalculator
     SQL
 
     late_expenditures = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT "FilerStateId", SUM("Amount") AS "Amount_A"
+      SELECT "FilerStateId", SUM("Calculated_Amount") AS "Calculated_Amount_A"
       FROM "efile_COAK_2016_497"
       WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F497P2'
@@ -26,7 +26,7 @@ class TotalExpendituresCalculator
 
     (results.to_a + late_expenditures.to_a).each do |result|
       candidate = @candidates_by_filer_id[result['FilerStateId'].to_i]
-      candidate.save_calculation(:total_expenditures, result['Amount_A'])
+      candidate.save_calculation(:total_expenditures, result['Calculated_Amount_A'])
     end
   end
 end

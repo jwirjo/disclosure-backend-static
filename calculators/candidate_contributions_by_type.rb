@@ -65,7 +65,7 @@ class CandidateContributionsByType
       # Schedule A during a preprocssing script. (See
       # `./../remove_duplicate_transactionts.sh`)
       late_results = ActiveRecord::Base.connection.execute(<<-SQL)
-        SELECT "FilerStateId", "Entity_Cd", SUM("Amount") AS "Total"
+        SELECT "FilerStateId", "Entity_Cd", SUM("Calculated_Amount") AS "Total"
         FROM "efile_COAK_2016_497"
         WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         AND "Form_Type" = 'F497P1'
@@ -86,14 +86,14 @@ class CandidateContributionsByType
   def unitemized_contributions_by_candidate
     @_unitemized_contributions_by_candidate ||= {}.tap do |hash|
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "FilerStateId", SUM("Amount_A") AS "Amount_A" FROM "efile_COAK_2016_Summary"
+        SELECT "FilerStateId", SUM("Calculated_Amount_A") AS "Calculated_Amount_A" FROM "efile_COAK_2016_Summary"
         WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
           AND "Form_Type" = 'A' AND "Line_Item" = '2'
         GROUP BY "FilerStateId"
         ORDER BY "FilerStateId"
       SQL
 
-      hash.merge!(Hash[results.map { |row| row.values_at('FilerStateId', 'Amount_A') }])
+      hash.merge!(Hash[results.map { |row| row.values_at('FilerStateId', 'Calculated_Amount_A') }])
     end
   end
 end

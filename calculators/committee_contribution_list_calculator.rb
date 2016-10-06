@@ -20,7 +20,7 @@ class CommitteeContributionListCalculator
       -- Form 497 Late Contributions
       SELECT
         "FilerStateId"::varchar,
-        "Amount" AS "Tran_Amt1",
+        "Calculated_Amount" AS "Tran_Amt1",
         "Enty_NamF" AS "Tran_NamF",
         "Tran_NamL" AS "Tran_NamL",
         "Ctrib_Date" AS "Tran_Date"

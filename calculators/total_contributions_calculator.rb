@@ -10,7 +10,7 @@ class TotalContributionsCalculator
     contributions_by_filer_id = {}
 
     summary_results = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT "FilerStateId", SUM("Calculated_Amount_A") AS "Calculated_Amount_A"
+      SELECT "FilerStateId", SUM("Amount_A") AS "Amount_A"
       FROM "efile_COAK_2016_Summary"
       WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F460'
@@ -22,7 +22,7 @@ class TotalContributionsCalculator
     summary_results.each do |result|
       filer_id = result['FilerStateId'].to_s
       contributions_by_filer_id[filer_id] ||= 0
-      contributions_by_filer_id[filer_id] += result['Calculated_Amount_A'].to_f
+      contributions_by_filer_id[filer_id] += result['Amount_A'].to_f
     end
 
     # NOTE: We remove duplicate transactions on 497 that are also reported on

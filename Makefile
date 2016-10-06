@@ -53,7 +53,7 @@ import2: downloads/netfile_COAK_2016_Summary.csv downloads/netfile_COAK_2016_Tra
 	inputs/oakland_candidates.csv inputs/oakland_committees.csv inputs/oakland_referendums.csv inputs/oakland_name_to_number.csv
 	dropdb disclosure-backend || true
 	createdb disclosure-backend
-	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/netfile_COAK_2016_Summary.csv
+	csvsql --doublequote --db postgresql:///disclosure-backend --insert downloads/netfile_COAK_2016_Summary.csv --tables efile_COAK_2016_Summary
 	csvgrep -c Form_Type -m A downloads/netfile_COAK_2016_Transactions.csv | \
 		csvsql --doublequote --db postgresql:///disclosure-backend --insert --tables efile_COAK_2016_A-Contributions
 	csvgrep -c Form_Type -m B1 downloads/netfile_COAK_2016_Transactions.csv | \

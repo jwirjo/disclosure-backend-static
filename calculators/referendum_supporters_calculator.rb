@@ -8,28 +8,28 @@ class ReferendumSupportersCalculator
   def fetch
     # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "FilerStateId"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd",
+      SELECT "FilerStateId"::varchar, "FilerName", "Bal_Name", "Sup_Opp_Cd",
         SUM("Calculated_Amount") AS "Total_Calculated_Amount"
       FROM (
-        SELECT "FilerStateId", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
+        SELECT "FilerStateId", "FilerName", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
         FROM "efile_COAK_2016_E-Expenditure"
         WHERE "Bal_Name" IS NOT NULL
         UNION
-        SELECT "FilerStateId"::varchar, "Filer_NamL", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
+        SELECT "FilerStateId"::varchar, "FilerName", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
         FROM "efile_COAK_2016_496"
         WHERE "Bal_Name" IS NOT NULL
       ) as U
-      GROUP BY "FilerStateId", "Filer_NamL", "Bal_Name", "Sup_Opp_Cd"
+      GROUP BY "FilerStateId", "FilerName", "Bal_Name", "Sup_Opp_Cd"
 
       UNION
-      SELECT "FilerStateId"::varchar, "Filer_NamL", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
+      SELECT "FilerStateId"::varchar, "FilerName", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
         SUM("Calculated_Amount") AS "Total_Calculated_Amount"
       FROM "efile_COAK_2016_497"
       WHERE "Bal_Name" IS NOT NULL
       AND "Form_Type" = 'F497P2'
-      GROUP BY "FilerStateId", "Filer_NamL", "Bal_Name"
+      GROUP BY "FilerStateId", "FilerName", "Bal_Name"
 
-      ORDER BY "FilerStateId", "Filer_NamL"
+      ORDER BY "FilerStateId", "FilerName"
     SQL
 
     supporting_by_measure_name = {}
@@ -58,8 +58,8 @@ class ReferendumSupportersCalculator
         supporting_by_measure_name[bal_num] ||= {}
         supporting_by_measure_name[bal_num][row['FilerStateId']] ||= {
           id: committee ? committee['FilerStateId'] : nil,
-          name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
-          payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          name: committee ? committee['FilerName'] : row['FilerName'],
+          payee: committee ? committee['FilerName'] : row['FilerName'],
           amount: 0,
         }
         supporting_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Calculated_Amount']
@@ -67,8 +67,8 @@ class ReferendumSupportersCalculator
         opposing_by_measure_name[bal_num] ||= {}
         opposing_by_measure_name[bal_num][row['FilerStateId']] ||= {
           id: committee ? committee['FilerStateId'] : nil,
-          name: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
-          payee: committee ? committee['Filer_NamL'] : row['Filer_NamL'],
+          name: committee ? committee['FilerName'] : row['FilerName'],
+          payee: committee ? committee['FilerName'] : row['FilerName'],
           amount: 0,
         }
         opposing_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Calculated_Amount']
@@ -101,7 +101,7 @@ class ReferendumSupportersCalculator
 
     unless committee
       @committees_by_filer_id.each do |id, cmte|
-        if expenditure['Filer_NamL'] =~ /#{Regexp.escape cmte.Filer_NamL}/i
+        if expenditure['FilerName'] =~ /#{Regexp.escape cmte.FilerName}/i
           committee = cmte
           break
         end

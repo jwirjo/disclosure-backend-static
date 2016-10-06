@@ -18,7 +18,7 @@ class OaklandCommittee < ActiveRecord::Base
     {
       id: id,
       filer_id: self['FilerStateId'],
-      name: self['Filer_NamL'],
+      name: self['FilerName'],
 
       website_url: self['Website'],
       city: self['City'],

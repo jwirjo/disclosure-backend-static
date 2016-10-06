@@ -1,72 +1,72 @@
 [
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 2500.0,
     "Tran_Date": "2016-01-12",
     "Tran_NamF": null,
-    "Tran_NamL": "Clear Channel Outdoor"
+    "Tran_NamL": "Clear Channel Outdoor",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-03-14",
     "Tran_NamF": null,
-    "Tran_NamL": "Federal Express"
+    "Tran_NamL": "Federal Express",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-02-02",
     "Tran_NamF": null,
-    "Tran_NamL": "Golden State Warriors"
+    "Tran_NamL": "Golden State Warriors",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-06-17",
     "Tran_NamF": null,
-    "Tran_NamL": "KaiserAir, Inc."
+    "Tran_NamL": "KaiserAir, Inc.",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 62.5,
     "Tran_Date": "2016-05-17",
     "Tran_NamF": null,
-    "Tran_NamL": "Oakland Marriott - City Center"
+    "Tran_NamL": "Oakland Marriott - City Center",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 116.1,
     "Tran_Date": "2016-05-16",
     "Tran_NamF": null,
-    "Tran_NamL": "Peerless Coffee"
+    "Tran_NamL": "Peerless Coffee",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 2500.0,
     "Tran_Date": "2016-01-06",
     "Tran_NamF": null,
-    "Tran_NamL": "Piedmont Grocery Co."
+    "Tran_NamL": "Piedmont Grocery Co.",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-06-09",
     "Tran_NamF": null,
-    "Tran_NamL": "San Francisco Regional Center"
+    "Tran_NamL": "San Francisco Regional Center",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 200.0,
     "Tran_Date": "2016-01-11",
     "Tran_NamF": "Charles",
-    "Tran_NamL": "Stimson"
+    "Tran_NamL": "Stimson",
+    "FilerStateId": "983545"
   },
   {
-    "FilerStateId": "983545",
     "Tran_Amt1": 153.2,
     "Tran_Date": "2016-06-28",
     "Tran_NamF": null,
-    "Tran_NamL": "Whole Foods Market"
+    "Tran_NamL": "Whole Foods Market",
+    "FilerStateId": "983545"
   }
 ]

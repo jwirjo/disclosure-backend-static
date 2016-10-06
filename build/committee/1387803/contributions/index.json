@@ -1,212 +1,212 @@
 [
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-02",
     "Tran_NamF": "Al",
-    "Tran_NamL": "Adams"
+    "Tran_NamL": "Adams",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-08-25",
     "Tran_NamF": "Dan",
-    "Tran_NamL": "Bellino"
+    "Tran_NamL": "Bellino",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-13",
     "Tran_NamF": "Rochelle",
-    "Tran_NamL": "Benning"
+    "Tran_NamL": "Benning",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-19",
     "Tran_NamF": "Dan",
-    "Tran_NamL": "Cohen"
+    "Tran_NamL": "Cohen",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-08-06",
     "Tran_NamF": "Eddie",
-    "Tran_NamL": "Dillard"
+    "Tran_NamL": "Dillard",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-08-03",
     "Tran_NamF": "Jean",
-    "Tran_NamL": "Driscoll"
+    "Tran_NamL": "Driscoll",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-08-03",
     "Tran_NamF": "Robert",
-    "Tran_NamL": "Falkenberg"
+    "Tran_NamL": "Falkenberg",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 1500.0,
     "Tran_Date": "2016-09-16",
     "Tran_NamF": null,
-    "Tran_NamL": "Families and Educators for Public Education"
+    "Tran_NamL": "Families and Educators for Public Education",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Ed",
-    "Tran_NamL": "Gerber"
+    "Tran_NamL": "Gerber",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-01",
     "Tran_NamF": "James",
-    "Tran_NamL": "Harris"
+    "Tran_NamL": "Harris",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 200.0,
     "Tran_Date": "2016-08-10",
     "Tran_NamF": "James",
-    "Tran_NamL": "Harris"
+    "Tran_NamL": "Harris",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Michael",
-    "Tran_NamL": "Hassid"
+    "Tran_NamL": "Hassid",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-14",
     "Tran_NamF": "Jason",
-    "Tran_NamL": "Hoffman"
+    "Tran_NamL": "Hoffman",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "David",
-    "Tran_NamL": "Kakishiba"
+    "Tran_NamL": "Kakishiba",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-03",
     "Tran_NamF": "Jonathan",
-    "Tran_NamL": "Klein"
+    "Tran_NamL": "Klein",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 301.0,
     "Tran_Date": "2016-09-16",
     "Tran_NamF": "Shankar",
-    "Tran_NamL": "Krishna"
+    "Tran_NamL": "Krishna",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Alec",
-    "Tran_NamL": "Lee"
+    "Tran_NamL": "Lee",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 535.0,
     "Tran_Date": "2016-09-18",
     "Tran_NamF": "Ronald",
-    "Tran_NamL": "Lewis"
+    "Tran_NamL": "Lewis",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Valerie",
-    "Tran_NamL": "Morris"
+    "Tran_NamL": "Morris",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Fred",
-    "Tran_NamL": "Naranjo"
+    "Tran_NamL": "Naranjo",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Kimberly",
-    "Tran_NamL": "Nerpouni"
+    "Tran_NamL": "Nerpouni",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "T. Gary",
-    "Tran_NamL": "Rogers"
+    "Tran_NamL": "Rogers",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-07-01",
     "Tran_NamF": "Brian",
-    "Tran_NamL": "Rogers"
+    "Tran_NamL": "Rogers",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Kathleen",
-    "Tran_NamL": "Rogers"
+    "Tran_NamL": "Rogers",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-08-09",
     "Tran_NamF": "Libby",
-    "Tran_NamL": "Schaaf"
+    "Tran_NamL": "Schaaf",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-02",
     "Tran_NamF": "Glenn",
-    "Tran_NamL": "Shannon"
+    "Tran_NamL": "Shannon",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Olis",
-    "Tran_NamL": "Simmons"
+    "Tran_NamL": "Simmons",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-08-03",
     "Tran_NamF": "David",
-    "Tran_NamL": "Stein"
+    "Tran_NamL": "Stein",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-24",
     "Tran_NamF": "Louise",
-    "Tran_NamL": "Waters"
+    "Tran_NamL": "Waters",
+    "FilerStateId": "1387803"
   },
   {
-    "FilerStateId": "1387803",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-27",
     "Tran_NamF": "Jean",
-    "Tran_NamL": "Wing"
+    "Tran_NamL": "Wing",
+    "FilerStateId": "1387803"
   }
 ]

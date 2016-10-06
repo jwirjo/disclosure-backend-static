@@ -1,282 +1,310 @@
 [
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 1000.0,
     "Tran_Date": "2016-08-01",
     "Tran_NamF": null,
-    "Tran_NamL": "360 Total Concept, LLC"
+    "Tran_NamL": "360 Total Concept, LLC",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-09-01",
     "Tran_NamF": null,
-    "Tran_NamL": "AT&T California Employee PAC"
+    "Tran_NamL": "AT&T California Employee PAC",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-09",
     "Tran_NamF": "Isaac",
-    "Tran_NamL": "Abid"
+    "Tran_NamL": "Abid",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-09",
     "Tran_NamF": "Dan",
-    "Tran_NamL": "Altemus"
+    "Tran_NamL": "Altemus",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-07",
     "Tran_NamF": "Franklin",
-    "Tran_NamL": "Arthur"
+    "Tran_NamL": "Arthur",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-07",
     "Tran_NamF": "John",
-    "Tran_NamL": "Bacon"
+    "Tran_NamL": "Bacon",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-07",
     "Tran_NamF": "Shefali",
-    "Tran_NamL": "Billion"
+    "Tran_NamL": "Billion",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-08-29",
     "Tran_NamF": "John",
-    "Tran_NamL": "Bliss"
+    "Tran_NamL": "Bliss",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
+    "Tran_Amt1": 10000.0,
+    "Tran_Date": "2016-10-05",
+    "Tran_NamF": null,
+    "Tran_NamL": "Bridge Housing Corporation",
+    "FilerStateId": "1387983"
+  },
+  {
     "Tran_Amt1": 120.0,
     "Tran_Date": "2016-09-01",
     "Tran_NamF": "Abbigail",
-    "Tran_NamL": "Brown"
+    "Tran_NamL": "Brown",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 10000.0,
     "Tran_Date": "2016-09-21",
     "Tran_NamF": null,
-    "Tran_NamL": "California Alliance For Jobs - Rebuild California Committee"
+    "Tran_NamL": "California Alliance For Jobs - Rebuild California Committee",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 2000.0,
     "Tran_Date": "2016-08-29",
     "Tran_NamF": "Patrick",
-    "Tran_NamL": "Cashman"
+    "Tran_NamL": "Cashman",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
+    "Tran_Amt1": 2000.0,
+    "Tran_Date": "2016-10-05",
+    "Tran_NamF": null,
+    "Tran_NamL": "Condon-Johnson And Associates, Inc.",
+    "FilerStateId": "1387983"
+  },
+  {
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-09",
     "Tran_NamF": "Avril",
-    "Tran_NamL": "Fitzgerald"
+    "Tran_NamL": "Fitzgerald",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-06",
     "Tran_NamF": "Lori",
-    "Tran_NamL": "Fogarty"
+    "Tran_NamL": "Fogarty",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-08-29",
     "Tran_NamF": "Charles",
-    "Tran_NamL": "Freiberg"
+    "Tran_NamL": "Freiberg",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 25000.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": null,
-    "Tran_NamL": "Gallagher & Burk, Inc. Paving & Grading Contractors"
+    "Tran_NamL": "Gallagher & Burk, Inc. Paving & Grading Contractors",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-06",
     "Tran_NamF": "Ed",
-    "Tran_NamL": "Gerber"
+    "Tran_NamL": "Gerber",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-08-29",
     "Tran_NamF": "Greg",
-    "Tran_NamL": "Gruendl"
+    "Tran_NamL": "Gruendl",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-09-26",
     "Tran_NamF": null,
-    "Tran_NamL": "HNTB Holdings"
+    "Tran_NamL": "HNTB Holdings",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Earl",
-    "Tran_NamL": "Hamlin"
+    "Tran_NamL": "Hamlin",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Chris",
-    "Tran_NamL": "Hwang"
+    "Tran_NamL": "Hwang",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-29",
     "Tran_NamF": "Doug",
-    "Tran_NamL": "Johnson"
+    "Tran_NamL": "Johnson",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5368.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Mitchell",
-    "Tran_NamL": "Kapor"
+    "Tran_NamL": "Kapor",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Robert",
-    "Tran_NamL": "Kidd"
+    "Tran_NamL": "Kidd",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-05",
     "Tran_NamF": "Isaac",
-    "Tran_NamL": "Kos-Read"
+    "Tran_NamL": "Kos-Read",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 1000.0,
     "Tran_Date": "2016-08-26",
     "Tran_NamF": "John",
-    "Tran_NamL": "Marcone"
+    "Tran_NamL": "Marcone",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 48277.78,
     "Tran_Date": "2016-09-22",
     "Tran_NamF": null,
-    "Tran_NamL": "Mayor Libby Schaaf for Oakland"
+    "Tran_NamL": "Mayor Libby Schaaf for Oakland",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 50000.0,
     "Tran_Date": "2016-09-15",
     "Tran_NamF": null,
-    "Tran_NamL": "McGuire and Hester"
+    "Tran_NamL": "McGuire and Hester",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Amanda",
-    "Tran_NamL": "Noguera"
+    "Tran_NamL": "Noguera",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 10000.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": null,
-    "Tran_NamL": "Northern California District Council of Laborers Issues PAC"
+    "Tran_NamL": "Northern California District Council of Laborers Issues PAC",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
+    "Tran_Amt1": 5000.0,
+    "Tran_Date": "2016-10-04",
+    "Tran_NamF": null,
+    "Tran_NamL": "O.C. Jones & Sons, Inc. General Engineering Contractor",
+    "FilerStateId": "1387983"
+  },
+  {
     "Tran_Amt1": 10000.0,
     "Tran_Date": "2016-09-29",
     "Tran_NamF": null,
-    "Tran_NamL": "PG&E Corporation"
+    "Tran_NamL": "PG&E Corporation",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 2500.0,
     "Tran_Date": "2016-09-27",
     "Tran_NamF": "Alexis",
-    "Tran_NamL": "Pelosi"
+    "Tran_NamL": "Pelosi",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
+    "Tran_Amt1": 2500.0,
+    "Tran_Date": "2016-10-05",
+    "Tran_NamF": null,
+    "Tran_NamL": "Redgwick Construction Company",
+    "FilerStateId": "1387983"
+  },
+  {
     "Tran_Amt1": 2500.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": null,
-    "Tran_NamL": "San Francisco Laborer's Local 261 P.A.C."
+    "Tran_NamL": "San Francisco Laborer's Local 261 P.A.C.",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": null,
-    "Tran_NamL": "Shorenstein Realty Services, LP"
+    "Tran_NamL": "Shorenstein Realty Services, LP",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-05",
     "Tran_NamF": "Joan",
-    "Tran_NamL": "Story"
+    "Tran_NamL": "Story",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-01",
     "Tran_NamF": "Miye",
-    "Tran_NamL": "Takagi"
+    "Tran_NamL": "Takagi",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Natasha",
-    "Tran_NamL": "Terk"
+    "Tran_NamL": "Terk",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-08-26",
     "Tran_NamF": null,
-    "Tran_NamL": "The California Conservation Campaign"
+    "Tran_NamL": "The California Conservation Campaign",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-08-16",
     "Tran_NamF": null,
-    "Tran_NamL": "Townsend Public Affairs, Inc."
+    "Tran_NamL": "Townsend Public Affairs, Inc.",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 5000.0,
     "Tran_Date": "2016-09-06",
     "Tran_NamF": null,
-    "Tran_NamL": "United Contractors"
+    "Tran_NamL": "United Contractors",
+    "FilerStateId": "1387983"
   },
   {
-    "FilerStateId": "1387983",
     "Tran_Amt1": 1000.0,
     "Tran_Date": "2016-08-01",
     "Tran_NamF": "Joseph",
-    "Tran_NamL": "Whitehouse"
+    "Tran_NamL": "Whitehouse",
+    "FilerStateId": "1387983"
   }
 ]

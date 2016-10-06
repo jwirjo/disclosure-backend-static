@@ -6,36 +6,12 @@
   "summary": "This measure would: (1) extend the just cause eviction requirements to rental units constructed and approved for occupancy before December 31, 1995, if the units were newly constructed from the group and not created by rehabilitating, improving, or converting pre-existing commercial space or other residential rental space; (2) amend the Rent Ordinance to require that landlords obtain approval from the Rent Program before imposing any rent increases exceeding the Consumer Price Index. Without advance approval, landlords could not make tenants pay any rent increases noticed on or after February 1, 2017 exceeding the allowable adjustment. In addition the measure would require the City to provide an annual notice to residents that would include the amount of the allowable cost-of-living rent adjustment for the year while explaining how to get information for a rent increase.",
   "number": "JJ",
   "supporting_organizations": [
-    {
-      "id": "1364564",
-      "name": "Committee to Protect Oakland Renters - Yes on Measure JJ, sponsored by labor and community organizations",
-      "payee": "Committee to Protect Oakland Renters - Yes on Measure JJ, sponsored by labor and community organizations",
-      "amount": 127964.4
-    },
-    {
-      "id": "1385949",
-      "name": "Causa Justa :: Just Cause (nonprofit 501(c)(3))",
-      "payee": "Causa Justa :: Just Cause (nonprofit 501(c)(3))",
-      "amount": 143330.76
-    }
+
   ],
-  "total_contributions": 160146.25,
+  "total_contributions": [
+
+  ],
   "contributions_by_region": [
-    {
-      "amount": 4000.0,
-      "locale": "Out of State"
-    },
-    {
-      "amount": 4500.0,
-      "locale": "Within California"
-    },
-    {
-      "amount": 1000.0,
-      "locale": "Within Oakland"
-    },
-    {
-      "amount": 150646.25,
-      "locale": "Unknown"
-    }
+
   ]
 }

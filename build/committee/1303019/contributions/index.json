@@ -1,555 +1,555 @@
 [
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-08-25",
     "Tran_NamF": "Bob",
-    "Tran_NamL": "Arnold"
+    "Tran_NamL": "Arnold",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-08-21",
     "Tran_NamF": "Becky",
-    "Tran_NamL": "Austin"
+    "Tran_NamL": "Austin",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Kathy",
-    "Tran_NamL": "Baldanza"
+    "Tran_NamL": "Baldanza",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-06",
     "Tran_NamF": "Jennifer",
-    "Tran_NamL": "Berg"
+    "Tran_NamL": "Berg",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-01",
     "Tran_NamF": "Caroline",
-    "Tran_NamL": "Bettendorf"
+    "Tran_NamL": "Bettendorf",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-03-19",
     "Tran_NamF": "John",
-    "Tran_NamL": "Bliss"
+    "Tran_NamL": "Bliss",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-19",
     "Tran_NamF": "Dan",
-    "Tran_NamL": "Cohen"
+    "Tran_NamL": "Cohen",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 360.0,
     "Tran_Date": "2016-08-28",
     "Tran_NamF": "Hilary",
-    "Tran_NamL": "Crosby"
+    "Tran_NamL": "Crosby",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-28",
     "Tran_NamF": "Kelly",
-    "Tran_NamL": "Cushner"
+    "Tran_NamL": "Cushner",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-17",
     "Tran_NamF": "Kelly",
-    "Tran_NamL": "Cushner"
+    "Tran_NamL": "Cushner",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-27",
     "Tran_NamF": "Virginia",
-    "Tran_NamL": "Davis"
+    "Tran_NamL": "Davis",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-14",
     "Tran_NamF": "Elizabeth",
-    "Tran_NamL": "Diamond"
+    "Tran_NamL": "Diamond",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-09",
     "Tran_NamF": "Chris",
-    "Tran_NamL": "Dobbins"
+    "Tran_NamL": "Dobbins",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-05",
     "Tran_NamF": "Richard",
-    "Tran_NamL": "Dowling"
+    "Tran_NamL": "Dowling",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Elizabeth",
-    "Tran_NamL": "Epstein"
+    "Tran_NamL": "Epstein",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-31",
     "Tran_NamF": "Jenny",
-    "Tran_NamL": "Ettinger"
+    "Tran_NamL": "Ettinger",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 200.0,
     "Tran_Date": "2016-08-21",
     "Tran_NamF": "Paul",
-    "Tran_NamL": "Fassinger"
+    "Tran_NamL": "Fassinger",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-02-29",
     "Tran_NamF": "Amanda",
-    "Tran_NamL": "Feinstein"
+    "Tran_NamL": "Feinstein",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-13",
     "Tran_NamF": "Jennifer",
-    "Tran_NamL": "Flattery"
+    "Tran_NamL": "Flattery",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-21",
     "Tran_NamF": "Elizabeth",
-    "Tran_NamL": "Gessel"
+    "Tran_NamL": "Gessel",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-17",
     "Tran_NamF": "Nori",
-    "Tran_NamL": "Grossman"
+    "Tran_NamL": "Grossman",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 150.0,
     "Tran_Date": "2016-08-31",
     "Tran_NamF": "Amy",
-    "Tran_NamL": "Gurowitz"
+    "Tran_NamL": "Gurowitz",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Patricia",
-    "Tran_NamL": "Haladay"
+    "Tran_NamL": "Haladay",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-04-18",
     "Tran_NamF": "Beverly",
-    "Tran_NamL": "Hansen"
+    "Tran_NamL": "Hansen",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 125.0,
     "Tran_Date": "2016-08-19",
     "Tran_NamF": "Justin",
-    "Tran_NamL": "Horner"
+    "Tran_NamL": "Horner",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-21",
     "Tran_NamF": "Chris",
-    "Tran_NamL": "Hunt"
+    "Tran_NamL": "Hunt",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-24",
     "Tran_NamF": "Jeff and Dutch",
-    "Tran_NamL": "Key"
+    "Tran_NamL": "Key",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-24",
     "Tran_NamF": "Robert",
-    "Tran_NamL": "Kidd"
+    "Tran_NamL": "Kidd",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-17",
     "Tran_NamF": "Jonathan",
-    "Tran_NamL": "Klein"
+    "Tran_NamL": "Klein",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-24",
     "Tran_NamF": "Jodi",
-    "Tran_NamL": "Korb"
+    "Tran_NamL": "Korb",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-21",
     "Tran_NamF": "Joan",
-    "Tran_NamL": "Korin"
+    "Tran_NamL": "Korin",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-06",
     "Tran_NamF": "Heather",
-    "Tran_NamL": "Kuiper"
+    "Tran_NamL": "Kuiper",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-08-09",
     "Tran_NamF": "Elizabeth",
-    "Tran_NamL": "Lake"
+    "Tran_NamL": "Lake",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-17",
     "Tran_NamF": "Chan",
-    "Tran_NamL": "Lee"
+    "Tran_NamL": "Lee",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-03-19",
     "Tran_NamF": "Evelyn",
-    "Tran_NamL": "Lee"
+    "Tran_NamL": "Lee",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-06-13",
     "Tran_NamF": "Marty",
-    "Tran_NamL": "Liberman"
+    "Tran_NamL": "Liberman",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-06",
     "Tran_NamF": "Maxi",
-    "Tran_NamL": "Lilley"
+    "Tran_NamL": "Lilley",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-04-16",
     "Tran_NamF": "Arnie",
-    "Tran_NamL": "London"
+    "Tran_NamL": "London",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-02-25",
     "Tran_NamF": "Elogeanne",
-    "Tran_NamL": "Matson Grossmna"
+    "Tran_NamL": "Matson Grossmna",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-03-20",
     "Tran_NamF": "Demetra",
-    "Tran_NamL": "McBride"
+    "Tran_NamL": "McBride",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-03-02",
     "Tran_NamF": "Nancy",
-    "Tran_NamL": "McDermott"
+    "Tran_NamL": "McDermott",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-29",
     "Tran_NamF": "Erin",
-    "Tran_NamL": "McDevitt"
+    "Tran_NamL": "McDevitt",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Jackie",
-    "Tran_NamL": "Minor"
+    "Tran_NamL": "Minor",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-10",
     "Tran_NamF": "Irene",
-    "Tran_NamL": "Moosen"
+    "Tran_NamL": "Moosen",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 200.0,
     "Tran_Date": "2016-08-19",
     "Tran_NamF": "Jim",
-    "Tran_NamL": "Morehead"
+    "Tran_NamL": "Morehead",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-27",
     "Tran_NamF": "Gregg",
-    "Tran_NamL": "Morris"
+    "Tran_NamL": "Morris",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 150.0,
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Chris",
-    "Tran_NamL": "Neuts"
+    "Tran_NamL": "Neuts",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 400.0,
     "Tran_Date": "2016-04-10",
     "Tran_NamF": null,
-    "Tran_NamL": "Northern California Carpenters Regional Council"
+    "Tran_NamL": "Northern California Carpenters Regional Council",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-03-08",
     "Tran_NamF": "Craig",
-    "Tran_NamL": "Perkins"
+    "Tran_NamL": "Perkins",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Ellen",
-    "Tran_NamL": "Polansky"
+    "Tran_NamL": "Polansky",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-07-15",
     "Tran_NamF": "Susan",
-    "Tran_NamL": "Poncelet"
+    "Tran_NamL": "Poncelet",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-07-21",
     "Tran_NamF": "Jean",
-    "Tran_NamL": "Port"
+    "Tran_NamL": "Port",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-17",
     "Tran_NamF": "Kathy",
-    "Tran_NamL": "Riani"
+    "Tran_NamL": "Riani",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-09-11",
     "Tran_NamF": "Pamela",
-    "Tran_NamL": "Rich"
+    "Tran_NamL": "Rich",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Kersti",
-    "Tran_NamL": "Rose"
+    "Tran_NamL": "Rose",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-03-19",
     "Tran_NamF": "Leslie",
-    "Tran_NamL": "Sanders"
+    "Tran_NamL": "Sanders",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-03-02",
     "Tran_NamF": "Simone & Marvin",
-    "Tran_NamL": "Savlov"
+    "Tran_NamL": "Savlov",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-07-21",
     "Tran_NamF": "Libby",
-    "Tran_NamL": "Schaaf"
+    "Tran_NamL": "Schaaf",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 200.0,
     "Tran_Date": "2016-09-10",
     "Tran_NamF": "Steven",
-    "Tran_NamL": "Schiller"
+    "Tran_NamL": "Schiller",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-06-24",
     "Tran_NamF": "James",
-    "Tran_NamL": "Schumacher"
+    "Tran_NamL": "Schumacher",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-12",
     "Tran_NamF": "Jeff",
-    "Tran_NamL": "Segall"
+    "Tran_NamL": "Segall",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-11",
     "Tran_NamF": "Pat",
-    "Tran_NamL": "Shoptaugh"
+    "Tran_NamL": "Shoptaugh",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-24",
     "Tran_NamF": "Cindy",
-    "Tran_NamL": "Sloan"
+    "Tran_NamL": "Sloan",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 200.0,
     "Tran_Date": "2016-07-17",
     "Tran_NamF": "Cory",
-    "Tran_NamL": "Smegal"
+    "Tran_NamL": "Smegal",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-05-25",
     "Tran_NamF": "Robert",
-    "Tran_NamL": "Spencer"
+    "Tran_NamL": "Spencer",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-24",
     "Tran_NamF": null,
-    "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483"
+    "Tran_NamL": "Sprinkler Fitters and Apprentices Local 483",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-05-01",
     "Tran_NamF": null,
-    "Tran_NamL": "Stacey Luce Graphic Design"
+    "Tran_NamL": "Stacey Luce Graphic Design",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-08-03",
     "Tran_NamF": "David",
-    "Tran_NamL": "Stein"
+    "Tran_NamL": "Stein",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-04-16",
     "Tran_NamF": null,
-    "Tran_NamL": "Teamsters Joint Council No 7"
+    "Tran_NamL": "Teamsters Joint Council No 7",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-21",
     "Tran_NamF": "Amy",
-    "Tran_NamL": "Truelove"
+    "Tran_NamL": "Truelove",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-28",
     "Tran_NamF": "Michael",
-    "Tran_NamL": "Ubell"
+    "Tran_NamL": "Ubell",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-04-11",
     "Tran_NamF": "Zachary",
-    "Tran_NamL": "Unger"
+    "Tran_NamL": "Unger",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-03-19",
     "Tran_NamF": "Jennifer",
-    "Tran_NamL": "Vetter"
+    "Tran_NamL": "Vetter",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-14",
     "Tran_NamF": "Patrick",
-    "Tran_NamL": "Walsh"
+    "Tran_NamL": "Walsh",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-07-29",
     "Tran_NamF": "Brad",
-    "Tran_NamL": "Wiblin"
+    "Tran_NamL": "Wiblin",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-03-01",
     "Tran_NamF": "Peter",
-    "Tran_NamL": "Wright"
+    "Tran_NamL": "Wright",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-28",
     "Tran_NamF": "Jenny",
-    "Tran_NamL": "Yap"
+    "Tran_NamL": "Yap",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-09",
     "Tran_NamF": "Andy",
-    "Tran_NamL": "Young"
+    "Tran_NamL": "Young",
+    "FilerStateId": "1303019"
   },
   {
-    "FilerStateId": "1303019",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-03-10",
     "Tran_NamF": "Gene",
-    "Tran_NamL": "Zahas"
+    "Tran_NamL": "Zahas",
+    "FilerStateId": "1303019"
   }
 ]

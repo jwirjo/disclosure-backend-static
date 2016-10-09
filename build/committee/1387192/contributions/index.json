@@ -141,6 +141,13 @@
   },
   {
     "Filer_ID": "1387192",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-05",
+    "Tran_NamF": "Gilda",
+    "Tran_NamL": "Gonzales"
+  },
+  {
+    "Filer_ID": "1387192",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-09-07",
     "Tran_NamF": "Juan",
@@ -151,13 +158,6 @@
     "Tran_Amt1": 10000.0,
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Viola",
-    "Tran_NamL": "Gonzales"
-  },
-  {
-    "Filer_ID": "1387192",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-08-05",
-    "Tran_NamF": "Gilda",
     "Tran_NamL": "Gonzales"
   },
   {
@@ -197,15 +197,15 @@
   },
   {
     "Filer_ID": "1387192",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-09-01",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-08-12",
     "Tran_NamF": "John",
     "Tran_NamL": "Herr"
   },
   {
     "Filer_ID": "1387192",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-08-12",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-01",
     "Tran_NamF": "John",
     "Tran_NamL": "Herr"
   },
@@ -246,15 +246,15 @@
   },
   {
     "Filer_ID": "1387192",
-    "Tran_Amt1": 52.2,
-    "Tran_Date": "2016-08-22",
+    "Tran_Amt1": 104.09,
+    "Tran_Date": "2016-08-12",
     "Tran_NamF": "Linton",
     "Tran_NamL": "Johnson"
   },
   {
     "Filer_ID": "1387192",
-    "Tran_Amt1": 104.09,
-    "Tran_Date": "2016-08-12",
+    "Tran_Amt1": 52.2,
+    "Tran_Date": "2016-08-22",
     "Tran_NamF": "Linton",
     "Tran_NamL": "Johnson"
   },

@@ -148,13 +148,6 @@
   },
   {
     "Filer_ID": "1387803",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-09-22",
-    "Tran_NamF": "T. Gary",
-    "Tran_NamL": "Rogers"
-  },
-  {
-    "Filer_ID": "1387803",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-07-01",
     "Tran_NamF": "Brian",
@@ -165,6 +158,13 @@
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Kathleen",
+    "Tran_NamL": "Rogers"
+  },
+  {
+    "Filer_ID": "1387803",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-09-22",
+    "Tran_NamF": "T. Gary",
     "Tran_NamL": "Rogers"
   },
   {

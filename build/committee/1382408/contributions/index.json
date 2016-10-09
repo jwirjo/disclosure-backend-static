@@ -22,15 +22,15 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 65.0,
-    "Tran_Date": "2016-09-22",
+    "Tran_Amt1": 75.0,
+    "Tran_Date": "2016-08-15",
     "Tran_NamF": "Luis",
     "Tran_NamL": "Amezcua"
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 75.0,
-    "Tran_Date": "2016-08-15",
+    "Tran_Amt1": 65.0,
+    "Tran_Date": "2016-09-22",
     "Tran_NamF": "Luis",
     "Tran_NamL": "Amezcua"
   },
@@ -78,8 +78,8 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 57.0,
-    "Tran_Date": "2016-08-12",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-06-23",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Barnett"
   },
@@ -92,8 +92,8 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-06-23",
+    "Tran_Amt1": 57.0,
+    "Tran_Date": "2016-08-12",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Barnett"
   },
@@ -135,14 +135,14 @@
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-08-22",
+    "Tran_Date": "2016-07-01",
     "Tran_NamF": "Anthony",
     "Tran_NamL": "Bernhardt"
   },
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-07-01",
+    "Tran_Date": "2016-08-22",
     "Tran_NamF": "Anthony",
     "Tran_NamL": "Bernhardt"
   },
@@ -239,6 +239,13 @@
   },
   {
     "Filer_ID": "1382408",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-06-17",
+    "Tran_NamF": "Gregory",
+    "Tran_NamL": "Chan"
+  },
+  {
+    "Filer_ID": "1382408",
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-09-20",
     "Tran_NamF": "Sanford",
@@ -247,21 +254,14 @@
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-06-17",
-    "Tran_NamF": "Gregory",
-    "Tran_NamL": "Chan"
-  },
-  {
-    "Filer_ID": "1382408",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-07-31",
+    "Tran_Date": "2016-06-26",
     "Tran_NamF": "Stephen",
     "Tran_NamL": "Chessin"
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-06-26",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-07-31",
     "Tran_NamF": "Stephen",
     "Tran_NamL": "Chessin"
   },
@@ -589,23 +589,9 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-06-30",
-    "Tran_NamF": "Valarie",
-    "Tran_NamL": "Kalb"
-  },
-  {
-    "Filer_ID": "1382408",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-06-14",
-    "Tran_NamF": "David",
-    "Tran_NamL": "Kalb"
-  },
-  {
-    "Filer_ID": "1382408",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-09-23",
-    "Tran_NamF": "Dan",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-02-24",
+    "Tran_NamF": "Scott",
     "Tran_NamL": "Kalb"
   },
   {
@@ -617,17 +603,24 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-02-24",
-    "Tran_NamF": "Scott",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-06-14",
+    "Tran_NamF": "David",
     "Tran_NamL": "Kalb"
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 75.0,
-    "Tran_Date": "2016-09-24",
-    "Tran_NamF": "Ann",
-    "Tran_NamL": "Kalb-Kip"
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-06-30",
+    "Tran_NamF": "Valarie",
+    "Tran_NamL": "Kalb"
+  },
+  {
+    "Filer_ID": "1382408",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Dan",
+    "Tran_NamL": "Kalb"
   },
   {
     "Filer_ID": "1382408",
@@ -645,16 +638,23 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 125.0,
-    "Tran_Date": "2016-08-27",
-    "Tran_NamF": "Robert",
-    "Tran_NamL": "Katz"
+    "Tran_Amt1": 75.0,
+    "Tran_Date": "2016-09-24",
+    "Tran_NamF": "Ann",
+    "Tran_NamL": "Kalb-Kip"
   },
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 125.0,
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Leslie",
+    "Tran_NamL": "Katz"
+  },
+  {
+    "Filer_ID": "1382408",
+    "Tran_Amt1": 125.0,
+    "Tran_Date": "2016-08-27",
+    "Tran_NamF": "Robert",
     "Tran_NamL": "Katz"
   },
   {
@@ -925,15 +925,15 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-09-22",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-07-07",
     "Tran_NamF": "Bruce",
     "Tran_NamL": "Nilles"
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-07-07",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-22",
     "Tran_NamF": "Bruce",
     "Tran_NamL": "Nilles"
   },
@@ -1009,15 +1009,15 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-06-16",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-03-31",
     "Tran_NamF": "Sue",
     "Tran_NamL": "Piper"
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-03-31",
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-06-16",
     "Tran_NamF": "Sue",
     "Tran_NamL": "Piper"
   },
@@ -1093,13 +1093,6 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-09-24",
-    "Tran_NamF": "Sue",
-    "Tran_NamL": "Reinhold"
-  },
-  {
-    "Filer_ID": "1382408",
     "Tran_Amt1": 318.0,
     "Tran_Date": "2016-05-19",
     "Tran_NamF": "Sue",
@@ -1107,15 +1100,22 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-09-23",
-    "Tran_NamF": "Adolph",
-    "Tran_NamL": "Rosekrans"
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-09-24",
+    "Tran_NamF": "Sue",
+    "Tran_NamL": "Reinhold"
   },
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 136.0,
     "Tran_Date": "2016-05-22",
+    "Tran_NamF": "Adolph",
+    "Tran_NamL": "Rosekrans"
+  },
+  {
+    "Filer_ID": "1382408",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-23",
     "Tran_NamF": "Adolph",
     "Tran_NamL": "Rosekrans"
   },
@@ -1135,6 +1135,13 @@
   },
   {
     "Filer_ID": "1382408",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-06-26",
+    "Tran_NamF": "Rebecca",
+    "Tran_NamL": "Saltzman"
+  },
+  {
+    "Filer_ID": "1382408",
     "Tran_Amt1": 57.0,
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Rebecca",
@@ -1149,24 +1156,10 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-06-26",
-    "Tran_NamF": "Rebecca",
-    "Tran_NamL": "Saltzman"
-  },
-  {
-    "Filer_ID": "1382408",
     "Tran_Amt1": 700.0,
     "Tran_Date": "2016-07-24",
     "Tran_NamF": "Libby",
     "Tran_NamL": "Schaaf"
-  },
-  {
-    "Filer_ID": "1382408",
-    "Tran_Amt1": 60.0,
-    "Tran_Date": "2016-09-22",
-    "Tran_NamF": "Steven",
-    "Tran_NamL": "Schiller"
   },
   {
     "Filer_ID": "1382408",
@@ -1177,15 +1170,22 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 58.0,
-    "Tran_Date": "2016-08-10",
-    "Tran_NamF": "Laura",
-    "Tran_NamL": "Schlichtmann"
+    "Tran_Amt1": 60.0,
+    "Tran_Date": "2016-09-22",
+    "Tran_NamF": "Steven",
+    "Tran_NamL": "Schiller"
   },
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-05-26",
+    "Tran_NamF": "Laura",
+    "Tran_NamL": "Schlichtmann"
+  },
+  {
+    "Filer_ID": "1382408",
+    "Tran_Amt1": 58.0,
+    "Tran_Date": "2016-08-10",
     "Tran_NamF": "Laura",
     "Tran_NamL": "Schlichtmann"
   },
@@ -1247,16 +1247,16 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-08-09",
-    "Tran_NamF": "Janna",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-03-03",
+    "Tran_NamF": "Michael",
     "Tran_NamL": "Sidley"
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-03-03",
-    "Tran_NamF": "Michael",
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-08-09",
+    "Tran_NamF": "Janna",
     "Tran_NamL": "Sidley"
   },
   {
@@ -1276,16 +1276,23 @@
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-06-18",
+    "Tran_Date": "2016-05-22",
     "Tran_NamF": "Nancy",
     "Tran_NamL": "Skinner"
   },
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-05-22",
+    "Tran_Date": "2016-06-18",
     "Tran_NamF": "Nancy",
     "Tran_NamL": "Skinner"
+  },
+  {
+    "Filer_ID": "1382408",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-07-01",
+    "Tran_NamF": "Bernard",
+    "Tran_NamL": "Smith"
   },
   {
     "Filer_ID": "1382408",
@@ -1298,13 +1305,6 @@
     "Filer_ID": "1382408",
     "Tran_Amt1": 25.0,
     "Tran_Date": "2016-09-23",
-    "Tran_NamF": "Bernard",
-    "Tran_NamL": "Smith"
-  },
-  {
-    "Filer_ID": "1382408",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-07-01",
     "Tran_NamF": "Bernard",
     "Tran_NamL": "Smith"
   },
@@ -1513,15 +1513,15 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-09-24",
+    "Tran_Amt1": 75.0,
+    "Tran_Date": "2016-07-02",
     "Tran_NamF": "Forest",
     "Tran_NamL": "Weld"
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 75.0,
-    "Tran_Date": "2016-07-02",
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-09-24",
     "Tran_NamF": "Forest",
     "Tran_NamL": "Weld"
   },
@@ -1583,13 +1583,6 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 125.0,
-    "Tran_Date": "2016-09-19",
-    "Tran_NamF": "Marguerite",
-    "Tran_NamL": "Young"
-  },
-  {
-    "Filer_ID": "1382408",
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Andrew",
@@ -1597,15 +1590,22 @@
   },
   {
     "Filer_ID": "1382408",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-09-05",
-    "Tran_NamF": "Bradley",
-    "Tran_NamL": "Zebrack"
+    "Tran_Amt1": 125.0,
+    "Tran_Date": "2016-09-19",
+    "Tran_NamF": "Marguerite",
+    "Tran_NamL": "Young"
   },
   {
     "Filer_ID": "1382408",
     "Tran_Amt1": 250.0,
     "Tran_Date": "2016-06-11",
+    "Tran_NamF": "Bradley",
+    "Tran_NamL": "Zebrack"
+  },
+  {
+    "Filer_ID": "1382408",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-05",
     "Tran_NamF": "Bradley",
     "Tran_NamL": "Zebrack"
   }

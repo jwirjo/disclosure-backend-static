@@ -64,9 +64,9 @@
   },
   {
     "Filer_ID": "1388133",
-    "Tran_Amt1": 150.0,
-    "Tran_Date": "2016-08-02",
-    "Tran_NamF": "Victoria",
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-07-15",
+    "Tran_NamF": "Michael",
     "Tran_NamL": "Hassid"
   },
   {
@@ -74,6 +74,20 @@
     "Tran_Amt1": 500.0,
     "Tran_Date": "2016-07-17",
     "Tran_NamF": "Edwin",
+    "Tran_NamL": "Hassid"
+  },
+  {
+    "Filer_ID": "1388133",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-07-20",
+    "Tran_NamF": "Steve",
+    "Tran_NamL": "Hassid"
+  },
+  {
+    "Filer_ID": "1388133",
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-08-02",
+    "Tran_NamF": "Victoria",
     "Tran_NamL": "Hassid"
   },
   {
@@ -88,20 +102,6 @@
     "Tran_Amt1": 100.0,
     "Tran_Date": "2016-08-08",
     "Tran_NamF": "Andre",
-    "Tran_NamL": "Hassid"
-  },
-  {
-    "Filer_ID": "1388133",
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-07-20",
-    "Tran_NamF": "Steve",
-    "Tran_NamL": "Hassid"
-  },
-  {
-    "Filer_ID": "1388133",
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-07-15",
-    "Tran_NamF": "Michael",
     "Tran_NamL": "Hassid"
   },
   {

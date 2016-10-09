@@ -18,7 +18,7 @@
   "supporting_money": {
     "contributions_received": 52429.0,
     "total_contributions": 52429.0,
-    "total_expenditures": null,
+    "total_expenditures": 99150.77,
     "total_loans_received": null,
     "contributions_by_type": {
       "Individual": 44987.0,
@@ -41,7 +41,7 @@
   },
   "contributions_received": 52429.0,
   "total_contributions": 52429.0,
-  "total_expenditures": null,
+  "total_expenditures": 99150.77,
   "total_loans_received": null,
   "contributions_by_type": {
     "Individual": 44987.0,

@@ -18,7 +18,7 @@
   "supporting_money": {
     "contributions_received": 11504.0,
     "total_contributions": 11504.0,
-    "total_expenditures": null,
+    "total_expenditures": 2774.63,
     "total_loans_received": null,
     "contributions_by_type": {
       "Committee": 1700.0,
@@ -34,7 +34,7 @@
   },
   "contributions_received": 11504.0,
   "total_contributions": 11504.0,
-  "total_expenditures": null,
+  "total_expenditures": 2774.63,
   "total_loans_received": null,
   "contributions_by_type": {
     "Committee": 1700.0,

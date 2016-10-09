@@ -18,7 +18,7 @@
   "supporting_money": {
     "contributions_received": 1000.0,
     "total_contributions": 1000.0,
-    "total_expenditures": null,
+    "total_expenditures": 2467.14,
     "total_loans_received": null,
     "contributions_by_type": {
       "Unitemized": 0.0
@@ -33,7 +33,7 @@
   },
   "contributions_received": 1000.0,
   "total_contributions": 1000.0,
-  "total_expenditures": null,
+  "total_expenditures": 2467.14,
   "total_loans_received": null,
   "contributions_by_type": {
     "Unitemized": 0.0

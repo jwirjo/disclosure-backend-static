@@ -23,7 +23,7 @@
       "supporting_money": {
         "contributions_received": 7536.0,
         "total_contributions": 7536.0,
-        "total_expenditures": null,
+        "total_expenditures": 3099.45,
         "total_loans_received": null,
         "contributions_by_type": {
           "Individual": 6700.0,
@@ -39,7 +39,7 @@
       },
       "contributions_received": 7536.0,
       "total_contributions": 7536.0,
-      "total_expenditures": null,
+      "total_expenditures": 3099.45,
       "total_loans_received": null,
       "contributions_by_type": {
         "Individual": 6700.0,
@@ -109,7 +109,7 @@
       "supporting_money": {
         "contributions_received": 19315.01,
         "total_contributions": 19315.01,
-        "total_expenditures": null,
+        "total_expenditures": 26562.93,
         "total_loans_received": null,
         "contributions_by_type": {
           "Committee": 3900.0,
@@ -132,7 +132,7 @@
       },
       "contributions_received": 19315.01,
       "total_contributions": 19315.01,
-      "total_expenditures": null,
+      "total_expenditures": 26562.93,
       "total_loans_received": null,
       "contributions_by_type": {
         "Committee": 3900.0,
@@ -170,7 +170,7 @@
       "supporting_money": {
         "contributions_received": 16340.48,
         "total_contributions": 16340.48,
-        "total_expenditures": null,
+        "total_expenditures": 5863.54,
         "total_loans_received": null,
         "contributions_by_type": {
           "Individual": 11763.31,
@@ -191,7 +191,7 @@
       },
       "contributions_received": 16340.48,
       "total_contributions": 16340.48,
-      "total_expenditures": null,
+      "total_expenditures": 5863.54,
       "total_loans_received": null,
       "contributions_by_type": {
         "Individual": 11763.31,

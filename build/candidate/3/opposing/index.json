@@ -26,6 +26,10 @@
       "Other (includes Businesses)": 800.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 7403.68,
+      "Campaign Consultants": 42134.75,
+      "Campaign Literature and Mailings": 685.52,
+      "Information Technology Costs (Internet, E-mail)": 1000.0
     }
   },
   "opposing_money": {
@@ -41,5 +45,9 @@
     "Other (includes Businesses)": 800.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 7403.68,
+    "Campaign Consultants": 42134.75,
+    "Campaign Literature and Mailings": 685.52,
+    "Information Technology Costs (Internet, E-mail)": 1000.0
   }
 }

@@ -27,6 +27,15 @@
       "Other (includes Businesses)": 11750.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 13054.69,
+      "Fundraising Events": 200.0,
+      "Campaign Consultants": 36750.0,
+      "Campaign Paraphernalia/Misc.": 3482.97,
+      "Campaign Literature and Mailings": 10593.01,
+      "Staff/Spouse Travel, Lodging, and Meals": 44.0,
+      "Postage, Delivery and Messenger Services": 1794.34,
+      "Professional Services (Legal, Accounting)": 3362.86,
+      "Information Technology Costs (Internet, E-mail)": 580.0
     }
   },
   "opposing_money": {
@@ -43,5 +52,14 @@
     "Other (includes Businesses)": 11750.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 13054.69,
+    "Fundraising Events": 200.0,
+    "Campaign Consultants": 36750.0,
+    "Campaign Paraphernalia/Misc.": 3482.97,
+    "Campaign Literature and Mailings": 10593.01,
+    "Staff/Spouse Travel, Lodging, and Meals": 44.0,
+    "Postage, Delivery and Messenger Services": 1794.34,
+    "Professional Services (Legal, Accounting)": 3362.86,
+    "Information Technology Costs (Internet, E-mail)": 580.0
   }
 }

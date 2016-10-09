@@ -29,6 +29,8 @@
           "Unitemized": 0.0
         },
         "expenditures_by_type": {
+          "": 435.74,
+          "Professional Services (Legal, Accounting)": 850.0
         }
       },
       "opposing_money": {
@@ -42,6 +44,8 @@
         "Unitemized": 0.0
       },
       "expenditures_by_type": {
+        "": 435.74,
+        "Professional Services (Legal, Accounting)": 850.0
       }
     },
     {
@@ -72,6 +76,7 @@
           "Unitemized": 1154.0
         },
         "expenditures_by_type": {
+          "Office Expenses": 1254.02
         }
       },
       "opposing_money": {
@@ -87,6 +92,7 @@
         "Unitemized": 1154.0
       },
       "expenditures_by_type": {
+        "Office Expenses": 1254.02
       }
     },
     {
@@ -118,6 +124,9 @@
           "Other (includes Businesses)": 6800.0
         },
         "expenditures_by_type": {
+          "Campaign Paraphernalia/Misc.": 3779.35,
+          "Professional Services (Legal, Accounting)": 486.6,
+          "Information Technology Costs (Internet, E-mail)": 106.94
         }
       },
       "opposing_money": {
@@ -134,6 +143,9 @@
         "Other (includes Businesses)": 6800.0
       },
       "expenditures_by_type": {
+        "Campaign Paraphernalia/Misc.": 3779.35,
+        "Professional Services (Legal, Accounting)": 486.6,
+        "Information Technology Costs (Internet, E-mail)": 106.94
       }
     }
   ],

@@ -26,6 +26,13 @@
       "Other (includes Businesses)": 1900.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 248.2,
+      "Fundraising Events": 641.59,
+      "Campaign Consultants": 1000.0,
+      "Meetings and Appearances": 437.32,
+      "Campaign Paraphernalia/Misc.": 3755.99,
+      "Candidate Filing/Ballot Fees": 300.0,
+      "Campaign Literature and Mailings": 850.0
     }
   },
   "opposing_money": {
@@ -41,5 +48,12 @@
     "Other (includes Businesses)": 1900.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 248.2,
+    "Fundraising Events": 641.59,
+    "Campaign Consultants": 1000.0,
+    "Meetings and Appearances": 437.32,
+    "Campaign Paraphernalia/Misc.": 3755.99,
+    "Candidate Filing/Ballot Fees": 300.0,
+    "Campaign Literature and Mailings": 850.0
   }
 }

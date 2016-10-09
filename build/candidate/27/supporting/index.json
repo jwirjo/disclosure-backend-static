@@ -26,6 +26,10 @@
       "Unitemized": 1972.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 1341.47,
+      "Campaign Consultants": 3950.0,
+      "Campaign Literature and Mailings": 350.0,
+      "Professional Services (Legal, Accounting)": 1667.54
     }
   },
   "opposing_money": {
@@ -41,5 +45,9 @@
     "Unitemized": 1972.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 1341.47,
+    "Campaign Consultants": 3950.0,
+    "Campaign Literature and Mailings": 350.0,
+    "Professional Services (Legal, Accounting)": 1667.54
   }
 }

@@ -26,7 +26,12 @@
       "Other (includes Businesses)": 1500.0
     },
     "expenditures_by_type": {
-      "Not Stated": 26256.98
+      "Fundraising Events": 126.9,
+      "Voter Registration": 1600.0,
+      "Campaign Paraphernalia/Misc.": 856.05,
+      "Candidate Filing/Ballot Fees": 300.0,
+      "Campaign Literature and Mailings": 1880.74,
+      "Information Technology Costs (Internet, E-mail)": 550.17
     }
   },
   "opposing_money": {
@@ -42,6 +47,11 @@
     "Other (includes Businesses)": 1500.0
   },
   "expenditures_by_type": {
-    "Not Stated": 26256.98
+    "Fundraising Events": 126.9,
+    "Voter Registration": 1600.0,
+    "Campaign Paraphernalia/Misc.": 856.05,
+    "Candidate Filing/Ballot Fees": 300.0,
+    "Campaign Literature and Mailings": 1880.74,
+    "Information Technology Costs (Internet, E-mail)": 550.17
   }
 }

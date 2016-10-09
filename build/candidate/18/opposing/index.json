@@ -26,7 +26,10 @@
       "Unitemized": 0.0
     },
     "expenditures_by_type": {
-      "Not Stated": 14445.4
+      "Fundraising Events": 203.53,
+      "Campaign Paraphernalia/Misc.": 1283.44,
+      "Professional Services (Legal, Accounting)": 200.0,
+      "Information Technology Costs (Internet, E-mail)": 597.0
     }
   },
   "opposing_money": {
@@ -42,6 +45,9 @@
     "Unitemized": 0.0
   },
   "expenditures_by_type": {
-    "Not Stated": 14445.4
+    "Fundraising Events": 203.53,
+    "Campaign Paraphernalia/Misc.": 1283.44,
+    "Professional Services (Legal, Accounting)": 200.0,
+    "Information Technology Costs (Internet, E-mail)": 597.0
   }
 }

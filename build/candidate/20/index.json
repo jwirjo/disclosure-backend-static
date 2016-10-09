@@ -25,6 +25,10 @@
       "Unitemized": 515.0
     },
     "expenditures_by_type": {
+      "Campaign Paraphernalia/Misc.": 724.48,
+      "Candidate Filing/Ballot Fees": 300.0,
+      "Campaign Literature and Mailings": 226.58,
+      "Information Technology Costs (Internet, E-mail)": 148.0
     }
   },
   "opposing_money": {
@@ -39,5 +43,9 @@
     "Unitemized": 515.0
   },
   "expenditures_by_type": {
+    "Campaign Paraphernalia/Misc.": 724.48,
+    "Candidate Filing/Ballot Fees": 300.0,
+    "Campaign Literature and Mailings": 226.58,
+    "Information Technology Costs (Internet, E-mail)": 148.0
   }
 }

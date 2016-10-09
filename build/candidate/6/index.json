@@ -26,6 +26,14 @@
       "Other (includes Businesses)": 5250.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 223.48,
+      "Fundraising Events": 500.0,
+      "Campaign Consultants": 6966.72,
+      "Meetings and Appearances": 1455.0,
+      "Campaign Literature and Mailings": 223.22,
+      "Professional Services (Legal, Accounting)": 2457.55,
+      "T.V. or Cable Airtime and Production Costs": 22000.0,
+      "Information Technology Costs (Internet, E-mail)": 1409.71
     }
   },
   "opposing_money": {
@@ -41,5 +49,13 @@
     "Other (includes Businesses)": 5250.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 223.48,
+    "Fundraising Events": 500.0,
+    "Campaign Consultants": 6966.72,
+    "Meetings and Appearances": 1455.0,
+    "Campaign Literature and Mailings": 223.22,
+    "Professional Services (Legal, Accounting)": 2457.55,
+    "T.V. or Cable Airtime and Production Costs": 22000.0,
+    "Information Technology Costs (Internet, E-mail)": 1409.71
   }
 }

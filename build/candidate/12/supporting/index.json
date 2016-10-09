@@ -27,6 +27,10 @@
       "Other (includes Businesses)": 800.0
     },
     "expenditures_by_type": {
+      "": 228.17,
+      "Meetings and Appearances": 279.0,
+      "Campaign Paraphernalia/Misc.": 1721.87,
+      "Information Technology Costs (Internet, E-mail)": 2400.0
     }
   },
   "opposing_money": {
@@ -43,5 +47,9 @@
     "Other (includes Businesses)": 800.0
   },
   "expenditures_by_type": {
+    "": 228.17,
+    "Meetings and Appearances": 279.0,
+    "Campaign Paraphernalia/Misc.": 1721.87,
+    "Information Technology Costs (Internet, E-mail)": 2400.0
   }
 }

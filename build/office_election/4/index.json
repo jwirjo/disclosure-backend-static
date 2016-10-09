@@ -31,7 +31,11 @@
           "Unitemized": 50.0
         },
         "expenditures_by_type": {
-          "Not Stated": 35916.83
+          "Fundraising Events": 300.8,
+          "Campaign Consultants": 2500.0,
+          "Campaign Paraphernalia/Misc.": 1095.75,
+          "Candidate Filing/Ballot Fees": 250.0,
+          "Professional Services (Legal, Accounting)": 1786.0
         }
       },
       "opposing_money": {
@@ -47,7 +51,11 @@
         "Unitemized": 50.0
       },
       "expenditures_by_type": {
-        "Not Stated": 35916.83
+        "Fundraising Events": 300.8,
+        "Campaign Consultants": 2500.0,
+        "Campaign Paraphernalia/Misc.": 1095.75,
+        "Candidate Filing/Ballot Fees": 250.0,
+        "Professional Services (Legal, Accounting)": 1786.0
       }
     },
     {
@@ -78,6 +86,10 @@
           "Unitemized": 1972.0
         },
         "expenditures_by_type": {
+          "Office Expenses": 1341.47,
+          "Campaign Consultants": 3950.0,
+          "Campaign Literature and Mailings": 350.0,
+          "Professional Services (Legal, Accounting)": 1667.54
         }
       },
       "opposing_money": {
@@ -93,6 +105,10 @@
         "Unitemized": 1972.0
       },
       "expenditures_by_type": {
+        "Office Expenses": 1341.47,
+        "Campaign Consultants": 3950.0,
+        "Campaign Literature and Mailings": 350.0,
+        "Professional Services (Legal, Accounting)": 1667.54
       }
     }
   ],

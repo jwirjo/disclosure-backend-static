@@ -25,6 +25,8 @@
       "Unitemized": 836.0
     },
     "expenditures_by_type": {
+      "Office Expenses": 235.21,
+      "Information Technology Costs (Internet, E-mail)": 147.0
     }
   },
   "opposing_money": {
@@ -39,5 +41,7 @@
     "Unitemized": 836.0
   },
   "expenditures_by_type": {
+    "Office Expenses": 235.21,
+    "Information Technology Costs (Internet, E-mail)": 147.0
   }
 }

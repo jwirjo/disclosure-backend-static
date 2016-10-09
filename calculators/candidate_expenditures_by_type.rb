@@ -33,17 +33,19 @@ class CandidateExpendituresByType
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @candidates_by_filer_id =
       candidates.where('"FPPC" IS NOT NULL').index_by { |c| c.FPPC }
+    @candidate_committees_by_netfile_id =
+      committees.where("\"FilerLocalId\" IS NOT NULL AND \"FilerStateId\" IN ('#{@candidates_by_filer_id.keys.join "','"}')").index_by { |c| c.FilerLocalId }
   end
 
   def fetch
     # normalization: replace three-letter names with TYPE_DESCRIPTIONS
     TYPE_DESCRIPTIONS.each do |short_name, human_name|
-      expenditures_by_candidate_by_type.each do |filer_id, expenditures_by_type|
+      expenditures_by_candidate_by_type.each do |netfile_id, expenditures_by_type|
         if value = expenditures_by_type.delete(short_name)
           expenditures_by_type[human_name] = value
         end
       end
-      opposing_candidate_by_type.each do |filer_id, expenditures_by_type|
+      opposing_candidate_by_type.each do |netfile_id, expenditures_by_type|
         if value = expenditures_by_type.delete(short_name)
           expenditures_by_type[human_name] = value
         end
@@ -51,12 +53,14 @@ class CandidateExpendituresByType
     end
 
     # save!
-    expenditures_by_candidate_by_type.each do |filer_id, expenditures_by_type|
-      candidate = @candidates_by_filer_id[filer_id.to_i]
+    expenditures_by_candidate_by_type.each do |netfile_id, expenditures_by_type|
+      committee = @candidate_committees_by_netfile_id[netfile_id]
+      candidate = @candidates_by_filer_id[committee.FilerStateId.to_i]
       candidate.save_calculation(:expenditures_by_type, expenditures_by_type)
     end
-    opposing_candidate_by_type.each do |filer_id, expenditures_by_type|
-      candidate = @candidates_by_filer_id[filer_id.to_i]
+    opposing_candidate_by_type.each do |netfile_id, expenditures_by_type|
+      committee = @candidate_committees_by_netfile_id[netfile_id]
+      candidate = @candidates_by_filer_id[committee.FilerStateId.to_i]
       candidate.save_calculation(:opposing_by_type, expenditures_by_type)
     end
   end
@@ -75,7 +79,7 @@ class CandidateExpendituresByType
           SELECT "FilerLocalId", "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_E-Expenditure"
           UNION ALL
-          SELECT "FPPC"::varchar AS "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
+          SELECT "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
@@ -85,7 +89,7 @@ class CandidateExpendituresByType
               AND "outer"."Calculated_Amount" = "inner"."Calculated_Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
           ) U
-        WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        WHERE "FilerLocalId" IN ('#{@candidate_committees_by_netfile_id.keys.join "','"}')
         GROUP BY "Tran_Code", "FilerLocalId"
         ORDER BY "Tran_Code", "FilerLocalId"
       SQL
@@ -97,7 +101,7 @@ class CandidateExpendituresByType
       late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
         SELECT "FilerLocalId", '' AS "Tran_Code", SUM("Calculated_Amount") AS "Total"
         FROM "efile_COAK_2016_497"
-        WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        WHERE "FilerLocalId" IN ('#{@candidate_committees_by_netfile_id.keys.join "','"}')
         AND "Form_Type" = 'F497P2'
         GROUP BY "FilerLocalId"
         ORDER BY "FilerLocalId"
@@ -119,12 +123,12 @@ class CandidateExpendituresByType
       results = ActiveRecord::Base.connection.execute <<-SQL
         SELECT "FilerLocalId", "Tran_Code", SUM("Calculated_Amount") AS "Total"
         FROM
-          (SELECT "FPPC"::varchar AS "FilerLocalId", "Tran_Code", "Calculated_Amount"
+          (SELECT "FilerLocalId", "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           UNION ALL
-          SELECT "FPPC"::varchar AS "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
+          SELECT "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
@@ -134,7 +138,7 @@ class CandidateExpendituresByType
               AND "outer"."Calculated_Amount" = "inner"."Calculated_Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
           ) U
-        WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        WHERE "FilerLocalId" IN ('#{@candidate_committees_by_netfile_id.keys.join "','"}')
         GROUP BY "Tran_Code", "FilerLocalId"
         ORDER BY "Tran_Code", "FilerLocalId"
       SQL

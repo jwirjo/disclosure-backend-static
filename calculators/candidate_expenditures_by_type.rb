@@ -27,12 +27,12 @@ class CandidateExpendituresByType
     'TSF' => 'Transfer Between Committees of the Same Candidate/sponsor',
     'VOT' => 'Voter Registration',
     'WEB' => 'Information Technology Costs (Internet, E-mail)',
-    '' => 'Not Stated'
+    nil => 'Not Stated'
   }
 
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @candidates_by_filer_id =
-      candidates.where('"FPPC" IS NOT NULL').index_by { |c| c.FPPC }
+      candidates.where('"FPPC" IS NOT NULL').index_by { |c| c.FPPC.to_s }
     @candidate_committees_by_netfile_id =
       committees.where("\"FilerLocalId\" IS NOT NULL AND \"FilerStateId\" IN ('#{@candidates_by_filer_id.keys.join "','"}')").index_by { |c| c.FilerLocalId }
   end
@@ -55,12 +55,12 @@ class CandidateExpendituresByType
     # save!
     expenditures_by_candidate_by_type.each do |netfile_id, expenditures_by_type|
       committee = @candidate_committees_by_netfile_id[netfile_id]
-      candidate = @candidates_by_filer_id[committee.FilerStateId.to_i]
+      candidate = @candidates_by_filer_id[committee.FilerStateId]
       candidate.save_calculation(:expenditures_by_type, expenditures_by_type)
     end
     opposing_candidate_by_type.each do |netfile_id, expenditures_by_type|
       committee = @candidate_committees_by_netfile_id[netfile_id]
-      candidate = @candidates_by_filer_id[committee.FilerStateId.to_i]
+      candidate = @candidates_by_filer_id[committee.FilerStateId]
       candidate.save_calculation(:opposing_by_type, expenditures_by_type)
     end
   end
@@ -79,12 +79,12 @@ class CandidateExpendituresByType
           SELECT "FilerLocalId", "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_E-Expenditure"
           UNION ALL
-          SELECT "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
+          SELECT "FilerLocalId", NULL AS "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
-              WHERE "outer"."FilerLocalId"::varchar = "inner"."FilerLocalId"
+              WHERE "outer"."FilerLocalId" = "inner"."FilerLocalId"
               AND "outer"."Tran_Date" = "inner"."Tran_Date"
               AND "outer"."Calculated_Amount" = "inner"."Calculated_Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
@@ -99,7 +99,7 @@ class CandidateExpendituresByType
       # To make the numbers line up closer, we'll bucket those all under "Not
       # Stated".
       late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-        SELECT "FilerLocalId", '' AS "Tran_Code", SUM("Calculated_Amount") AS "Total"
+        SELECT "FilerLocalId", NULL AS "Tran_Code", SUM("Calculated_Amount") AS "Total"
         FROM "efile_COAK_2016_497"
         WHERE "FilerLocalId" IN ('#{@candidate_committees_by_netfile_id.keys.join "','"}')
         AND "Form_Type" = 'F497P2'
@@ -128,12 +128,12 @@ class CandidateExpendituresByType
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           UNION ALL
-          SELECT "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
+          SELECT "FilerLocalId", NULL AS "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
-              WHERE "outer"."FilerLocalId"::varchar = "inner"."FilerLocalId"
+              WHERE "outer"."FilerLocalId" = "inner"."FilerLocalId"
               AND "outer"."Tran_Date" = "inner"."Tran_Date"
               AND "outer"."Calculated_Amount" = "inner"."Calculated_Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")

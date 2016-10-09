@@ -19,7 +19,7 @@
     "contributions_received": 28085.0,
     "total_contributions": 28085.0,
     "total_expenditures": 10162.2,
-    "total_loans_received": null,
+    "total_loans_received": 10000.0,
     "contributions_by_type": {
       "Committee": 500.0,
       "Individual": 11075.0,
@@ -37,7 +37,7 @@
   "contributions_received": 28085.0,
   "total_contributions": 28085.0,
   "total_expenditures": 10162.2,
-  "total_loans_received": null,
+  "total_loans_received": 10000.0,
   "contributions_by_type": {
     "Committee": 500.0,
     "Individual": 11075.0,

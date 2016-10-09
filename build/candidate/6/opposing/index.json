@@ -19,7 +19,7 @@
     "contributions_received": 52429.0,
     "total_contributions": 52429.0,
     "total_expenditures": 99150.77,
-    "total_loans_received": null,
+    "total_loans_received": 0.0,
     "contributions_by_type": {
       "Individual": 44987.0,
       "Unitemized": 2142.0,
@@ -42,7 +42,7 @@
   "contributions_received": 52429.0,
   "total_contributions": 52429.0,
   "total_expenditures": 99150.77,
-  "total_loans_received": null,
+  "total_loans_received": 0.0,
   "contributions_by_type": {
     "Individual": 44987.0,
     "Unitemized": 2142.0,

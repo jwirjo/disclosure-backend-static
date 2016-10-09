@@ -4,6 +4,7 @@
     "Tran_Date": "2016-01-12",
     "Tran_NamF": null,
     "Tran_NamL": "Clear Channel Outdoor",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -11,6 +12,7 @@
     "Tran_Date": "2016-03-14",
     "Tran_NamF": null,
     "Tran_NamL": "Federal Express",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -18,6 +20,7 @@
     "Tran_Date": "2016-02-02",
     "Tran_NamF": null,
     "Tran_NamL": "Golden State Warriors",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -25,6 +28,7 @@
     "Tran_Date": "2016-06-17",
     "Tran_NamF": null,
     "Tran_NamL": "KaiserAir, Inc.",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -32,6 +36,7 @@
     "Tran_Date": "2016-05-17",
     "Tran_NamF": null,
     "Tran_NamL": "Oakland Marriott - City Center",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -39,6 +44,7 @@
     "Tran_Date": "2016-05-16",
     "Tran_NamF": null,
     "Tran_NamL": "Peerless Coffee",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -46,6 +52,7 @@
     "Tran_Date": "2016-01-06",
     "Tran_NamF": null,
     "Tran_NamL": "Piedmont Grocery Co.",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -53,6 +60,7 @@
     "Tran_Date": "2016-06-09",
     "Tran_NamF": null,
     "Tran_NamL": "San Francisco Regional Center",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -60,6 +68,7 @@
     "Tran_Date": "2016-01-11",
     "Tran_NamF": "Charles",
     "Tran_NamL": "Stimson",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   },
   {
@@ -67,6 +76,7 @@
     "Tran_Date": "2016-06-28",
     "Tran_NamF": null,
     "Tran_NamL": "Whole Foods Market",
+    "FilerLocalId": "COAK-153047",
     "FilerStateId": "983545"
   }
 ]

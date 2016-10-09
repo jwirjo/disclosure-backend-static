@@ -26,6 +26,7 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Unitemized": 0.0
         },
         "expenditures_by_type": {
         }
@@ -38,6 +39,7 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Unitemized": 0.0
       },
       "expenditures_by_type": {
       }
@@ -65,6 +67,9 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Committee": 1700.0,
+          "Individual": 8650.0,
+          "Unitemized": 1154.0
         },
         "expenditures_by_type": {
         }
@@ -77,6 +82,9 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Committee": 1700.0,
+        "Individual": 8650.0,
+        "Unitemized": 1154.0
       },
       "expenditures_by_type": {
       }
@@ -104,6 +112,10 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Committee": 1930.0,
+          "Individual": 30550.0,
+          "Unitemized": 496.0,
+          "Other (includes Businesses)": 6800.0
         },
         "expenditures_by_type": {
         }
@@ -116,6 +128,10 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Committee": 1930.0,
+        "Individual": 30550.0,
+        "Unitemized": 496.0,
+        "Other (includes Businesses)": 6800.0
       },
       "expenditures_by_type": {
       }

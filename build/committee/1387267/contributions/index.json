@@ -1,3 +1,642 @@
 [
-
+  {
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": null,
+    "Tran_NamL": "AOSEN Group, LLC dba Pho Ao Sen",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Robert",
+    "Tran_NamL": "Apodaca",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-07-30",
+    "Tran_NamF": "Doug",
+    "Tran_NamL": "Bartman",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-19",
+    "Tran_NamF": "Robert",
+    "Tran_NamL": "Berring",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-04",
+    "Tran_NamF": "Max",
+    "Tran_NamL": "Chacana",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-14",
+    "Tran_NamF": "Roger",
+    "Tran_NamL": "Chao",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Theresa",
+    "Tran_NamL": "Chao",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 350.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "David",
+    "Tran_NamL": "Chavez",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Stewart",
+    "Tran_NamL": "Chen",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Ener",
+    "Tran_NamL": "Chiu",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Jarlene",
+    "Tran_NamL": "Choy",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-09-16",
+    "Tran_NamF": "Jack",
+    "Tran_NamL": "Chu",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-09-07",
+    "Tran_NamF": "John",
+    "Tran_NamL": "Claassen",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Richard",
+    "Tran_NamL": "Clarke",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Geraldine",
+    "Tran_NamL": "Clarke",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-07",
+    "Tran_NamF": "Richard",
+    "Tran_NamL": "Cowan",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 1.0,
+    "Tran_Date": "2016-07-31",
+    "Tran_NamF": "Peter",
+    "Tran_NamL": "Coye",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-01",
+    "Tran_NamF": "Peter",
+    "Tran_NamL": "Coye",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Karen",
+    "Tran_NamL": "Dea",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-04",
+    "Tran_NamF": "Robin",
+    "Tran_NamL": "Dean",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-06",
+    "Tran_NamF": "Katharine",
+    "Tran_NamL": "Dwyer",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Merlin",
+    "Tran_NamL": "Edwards",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Roselyn",
+    "Tran_NamL": "Eng",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Weylin",
+    "Tran_NamL": "Eng",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-06",
+    "Tran_NamF": "Robert",
+    "Tran_NamL": "Falaschi",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": "Alan",
+    "Tran_NamL": "Fong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-09-17",
+    "Tran_NamF": "Barry",
+    "Tran_NamL": "Fong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-09-17",
+    "Tran_NamF": "Victoria",
+    "Tran_NamL": "Fong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-07-25",
+    "Tran_NamF": "John",
+    "Tran_NamL": "Gamboa",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-01",
+    "Tran_NamF": "Stuart",
+    "Tran_NamL": "Gardiner",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-07",
+    "Tran_NamF": "Harry",
+    "Tran_NamL": "Gee",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-03",
+    "Tran_NamF": "Fanny",
+    "Tran_NamL": "Gong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Victor",
+    "Tran_NamL": "Gong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Jeffrey",
+    "Tran_NamL": "Gordon",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Lanette",
+    "Tran_NamL": "Gordon",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-14",
+    "Tran_NamF": null,
+    "Tran_NamL": "Gordon A Wong,MD,FACP,FCCPChest and Infectious Diseases Consultant",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-06",
+    "Tran_NamF": "Tim",
+    "Tran_NamL": "Hallahan",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-06",
+    "Tran_NamF": "Ann",
+    "Tran_NamL": "Hardesty",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Larry",
+    "Tran_NamL": "Heizel",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 300.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Floyd",
+    "Tran_NamL": "Huen",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-08",
+    "Tran_NamF": "Dick",
+    "Tran_NamL": "Johns",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-09-13",
+    "Tran_NamF": "Patricia",
+    "Tran_NamL": "Kernighan",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-09-14",
+    "Tran_NamF": "Jong",
+    "Tran_NamL": "Lee",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": null,
+    "Tran_NamL": "Lien Nguyen & Associates",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Rachel",
+    "Tran_NamL": "Lowe",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 150.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Russell",
+    "Tran_NamL": "Lowe",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-09-22",
+    "Tran_NamF": "Chris",
+    "Tran_NamL": "Martiniak",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Chris",
+    "Tran_NamL": "Martiniak",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-07-30",
+    "Tran_NamF": "Arnold",
+    "Tran_NamL": "Mew",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-08-03",
+    "Tran_NamF": "Ellen",
+    "Tran_NamL": "Miller",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-18",
+    "Tran_NamF": "John",
+    "Tran_NamL": "O'Toole",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-03",
+    "Tran_NamF": "Layton",
+    "Tran_NamL": "Olson",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Socheata",
+    "Tran_NamL": "Poeuv",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-08",
+    "Tran_NamF": "Dana",
+    "Tran_NamL": "Pong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-01",
+    "Tran_NamF": "Steven",
+    "Tran_NamL": "Pressman",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-30",
+    "Tran_NamF": "Melvin",
+    "Tran_NamL": "Quan",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-08",
+    "Tran_NamF": "Sean",
+    "Tran_NamL": "Randolph",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-16",
+    "Tran_NamF": "Norman",
+    "Tran_NamL": "Ronneberg",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": "Ann",
+    "Tran_NamL": "Shenkin",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": "Budd",
+    "Tran_NamL": "Shenkin",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-28",
+    "Tran_NamF": "Gary",
+    "Tran_NamL": "Sommer",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-22",
+    "Tran_NamF": "Marsha",
+    "Tran_NamL": "Standish",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-19",
+    "Tran_NamF": "Katherine",
+    "Tran_NamL": "Strehl",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Cimberly",
+    "Tran_NamL": "Tamura",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": "Tim",
+    "Tran_NamL": "Tosta",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-01",
+    "Tran_NamF": "Eric",
+    "Tran_NamL": "Trachtenberg",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Them",
+    "Tran_NamL": "Tran",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Doan",
+    "Tran_NamL": "Tran",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Ky Vo",
+    "Tran_NamL": "Truong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-16",
+    "Tran_NamF": "Joseph",
+    "Tran_NamL": "Vasquez",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-09-07",
+    "Tran_NamF": "Ernesto",
+    "Tran_NamL": "Vasquez",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Charles",
+    "Tran_NamL": "Vogl",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-08-18",
+    "Tran_NamF": "Zackery",
+    "Tran_NamL": "Walton",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-22",
+    "Tran_NamF": "Louis",
+    "Tran_NamL": "Weller",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Karen",
+    "Tran_NamL": "Wong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-07",
+    "Tran_NamF": "Stephen",
+    "Tran_NamL": "Wong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-08-12",
+    "Tran_NamF": "Peter",
+    "Tran_NamL": "Wong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-17",
+    "Tran_NamF": "Douglas",
+    "Tran_NamL": "Wong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-06",
+    "Tran_NamF": "Robert",
+    "Tran_NamL": "Wong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Merrily",
+    "Tran_NamL": "Wong",
+    "FilerLocalId": "COAK-154206",
+    "FilerStateId": null
+  }
 ]

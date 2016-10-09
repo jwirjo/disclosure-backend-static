@@ -21,37 +21,33 @@
       "party_affiliation": null,
       "filer_id": 1386416,
       "supporting_money": {
-        "contributions_received": 4988.0,
-        "total_contributions": 4988.0,
-        "total_expenditures": 730.97,
-        "total_loans_received": 500.0,
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
         "contributions_by_type": {
           "Committee": 1500.0,
-          "Individual": 2988.0,
+          "Individual": 5038.0,
           "Unitemized": 0.0
         },
         "expenditures_by_type": {
-          "Not Stated": 14445.4,
-          "Fundraising Events": 203.53,
-          "Campaign Paraphernalia/Misc.": 527.44
+          "Not Stated": 14445.4
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": 4988.0,
-      "total_contributions": 4988.0,
-      "total_expenditures": 730.97,
-      "total_loans_received": 500.0,
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
       "contributions_by_type": {
         "Committee": 1500.0,
-        "Individual": 2988.0,
+        "Individual": 5038.0,
         "Unitemized": 0.0
       },
       "expenditures_by_type": {
-        "Not Stated": 14445.4,
-        "Fundraising Events": 203.53,
-        "Campaign Paraphernalia/Misc.": 527.44
+        "Not Stated": 14445.4
       }
     },
     {
@@ -116,6 +112,8 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Individual": 1800.0,
+          "Unitemized": 515.0
         },
         "expenditures_by_type": {
         }
@@ -128,6 +126,8 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Individual": 1800.0,
+        "Unitemized": 515.0
       },
       "expenditures_by_type": {
       }

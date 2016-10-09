@@ -4,6 +4,7 @@
     "Tran_Date": "2016-07-15",
     "Tran_NamF": "Jose",
     "Tran_NamL": "Arias",
+    "FilerLocalId": "COAK-154156",
     "FilerStateId": "1385949"
   },
   {
@@ -11,6 +12,7 @@
     "Tran_Date": "2016-01-20",
     "Tran_NamF": "David",
     "Tran_NamL": "Eifler",
+    "FilerLocalId": "COAK-154156",
     "FilerStateId": "1385949"
   },
   {
@@ -18,6 +20,7 @@
     "Tran_Date": "2016-07-15",
     "Tran_NamF": "Felicia",
     "Tran_NamL": "Gustin",
+    "FilerLocalId": "COAK-154156",
     "FilerStateId": "1385949"
   },
   {
@@ -25,13 +28,7 @@
     "Tran_Date": "2016-07-12",
     "Tran_NamF": "Anne",
     "Tran_NamL": "MacDougald",
-    "FilerStateId": "1385949"
-  },
-  {
-    "Tran_Amt1": 1000.0,
-    "Tran_Date": "2016-07-13",
-    "Tran_NamF": "James",
-    "Tran_NamL": "Moore",
+    "FilerLocalId": "COAK-154156",
     "FilerStateId": "1385949"
   },
   {
@@ -39,6 +36,15 @@
     "Tran_Date": "2016-01-18",
     "Tran_NamF": "James",
     "Tran_NamL": "Moore",
+    "FilerLocalId": "COAK-154156",
+    "FilerStateId": "1385949"
+  },
+  {
+    "Tran_Amt1": 1000.0,
+    "Tran_Date": "2016-07-13",
+    "Tran_NamF": "James",
+    "Tran_NamL": "Moore",
+    "FilerLocalId": "COAK-154156",
     "FilerStateId": "1385949"
   },
   {
@@ -46,6 +52,7 @@
     "Tran_Date": "2016-04-01",
     "Tran_NamF": "Margaret",
     "Tran_NamL": "Renik",
+    "FilerLocalId": "COAK-154156",
     "FilerStateId": "1385949"
   }
 ]

@@ -21,10 +21,10 @@
       "party_affiliation": "Democrat",
       "filer_id": 1388641,
       "supporting_money": {
-        "contributions_received": 28085.0,
-        "total_contributions": 28085.0,
-        "total_expenditures": 10162.2,
-        "total_loans_received": 10000.0,
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
         "contributions_by_type": {
           "Committee": 500.0,
           "Individual": 11075.0,
@@ -32,18 +32,16 @@
           "Other (includes Businesses)": 6400.0
         },
         "expenditures_by_type": {
-          "Not Stated": 3685.75,
-          "Campaign Paraphernalia/Misc.": 4162.06,
-          "Campaign Literature and Mailings": 6000.0
+          "Not Stated": 12085.75
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": 28085.0,
-      "total_contributions": 28085.0,
-      "total_expenditures": 10162.2,
-      "total_loans_received": 10000.0,
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
       "contributions_by_type": {
         "Committee": 500.0,
         "Individual": 11075.0,
@@ -51,9 +49,7 @@
         "Other (includes Businesses)": 6400.0
       },
       "expenditures_by_type": {
-        "Not Stated": 3685.75,
-        "Campaign Paraphernalia/Misc.": 4162.06,
-        "Campaign Literature and Mailings": 6000.0
+        "Not Stated": 12085.75
       }
     },
     {
@@ -79,6 +75,10 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Committee": 1900.0,
+          "Individual": 30012.92,
+          "Unitemized": 992.81,
+          "Other (includes Businesses)": 800.0
         },
         "expenditures_by_type": {
         }
@@ -91,6 +91,10 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Committee": 1900.0,
+        "Individual": 30012.92,
+        "Unitemized": 992.81,
+        "Other (includes Businesses)": 800.0
       },
       "expenditures_by_type": {
       }

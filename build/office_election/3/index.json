@@ -21,10 +21,10 @@
       "party_affiliation": "Democrat",
       "filer_id": 1381183,
       "supporting_money": {
-        "contributions_received": 151269.0,
-        "total_contributions": 151269.0,
-        "total_expenditures": 93011.97,
-        "total_loans_received": 24000.0,
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
         "contributions_by_type": {
           "Committee": 5600.0,
           "Individual": 103278.0,
@@ -32,24 +32,15 @@
           "Other (includes Businesses)": 11750.0
         },
         "expenditures_by_type": {
-          "Office Expenses": 13054.69,
-          "Fundraising Events": 200.0,
-          "Campaign Consultants": 36750.0,
-          "Campaign Paraphernalia/Misc.": 3482.97,
-          "Campaign Literature and Mailings": 10593.01,
-          "Staff/Spouse Travel, Lodging, and Meals": 44.0,
-          "Postage, Delivery and Messenger Services": 1794.34,
-          "Professional Services (Legal, Accounting)": 3362.86,
-          "Information Technology Costs (Internet, E-mail)": 580.0
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": 151269.0,
-      "total_contributions": 151269.0,
-      "total_expenditures": 93011.97,
-      "total_loans_received": 24000.0,
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
       "contributions_by_type": {
         "Committee": 5600.0,
         "Individual": 103278.0,
@@ -57,15 +48,6 @@
         "Other (includes Businesses)": 11750.0
       },
       "expenditures_by_type": {
-        "Office Expenses": 13054.69,
-        "Fundraising Events": 200.0,
-        "Campaign Consultants": 36750.0,
-        "Campaign Paraphernalia/Misc.": 3482.97,
-        "Campaign Literature and Mailings": 10593.01,
-        "Staff/Spouse Travel, Lodging, and Meals": 44.0,
-        "Postage, Delivery and Messenger Services": 1794.34,
-        "Professional Services (Legal, Accounting)": 3362.86,
-        "Information Technology Costs (Internet, E-mail)": 580.0
       }
     },
     {
@@ -91,6 +73,9 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Individual": 23851.0,
+          "Unitemized": 1168.0,
+          "Other (includes Businesses)": 800.0
         },
         "expenditures_by_type": {
         }
@@ -103,6 +88,9 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Individual": 23851.0,
+        "Unitemized": 1168.0,
+        "Other (includes Businesses)": 800.0
       },
       "expenditures_by_type": {
       }
@@ -208,6 +196,9 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Individual": 44987.0,
+          "Unitemized": 2142.0,
+          "Other (includes Businesses)": 5250.0
         },
         "expenditures_by_type": {
         }
@@ -220,6 +211,9 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Individual": 44987.0,
+        "Unitemized": 2142.0,
+        "Other (includes Businesses)": 5250.0
       },
       "expenditures_by_type": {
       }

@@ -4,6 +4,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": null,
     "Tran_NamL": "CTA/ABC PAC",
+    "FilerLocalId": "COAK-153381",
     "FilerStateId": "1345259"
   },
   {
@@ -11,20 +12,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": null,
     "Tran_NamL": "CTA/ABC PAC",
-    "FilerStateId": "1345259"
-  },
-  {
-    "Tran_Amt1": 958.33,
-    "Tran_Date": "2016-03-01",
-    "Tran_NamF": null,
-    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
-    "FilerStateId": "1345259"
-  },
-  {
-    "Tran_Amt1": 958.33,
-    "Tran_Date": "2016-04-01",
-    "Tran_NamF": null,
-    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+    "FilerLocalId": "COAK-153381",
     "FilerStateId": "1345259"
   },
   {
@@ -32,20 +20,7 @@
     "Tran_Date": "2016-01-04",
     "Tran_NamF": null,
     "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
-    "FilerStateId": "1345259"
-  },
-  {
-    "Tran_Amt1": 958.33,
-    "Tran_Date": "2016-06-01",
-    "Tran_NamF": null,
-    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
-    "FilerStateId": "1345259"
-  },
-  {
-    "Tran_Amt1": 958.33,
-    "Tran_Date": "2016-05-02",
-    "Tran_NamF": null,
-    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+    "FilerLocalId": "COAK-153381",
     "FilerStateId": "1345259"
   },
   {
@@ -53,6 +28,39 @@
     "Tran_Date": "2016-02-01",
     "Tran_NamF": null,
     "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+    "FilerLocalId": "COAK-153381",
+    "FilerStateId": "1345259"
+  },
+  {
+    "Tran_Amt1": 958.33,
+    "Tran_Date": "2016-03-01",
+    "Tran_NamF": null,
+    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+    "FilerLocalId": "COAK-153381",
+    "FilerStateId": "1345259"
+  },
+  {
+    "Tran_Amt1": 958.33,
+    "Tran_Date": "2016-04-01",
+    "Tran_NamF": null,
+    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+    "FilerLocalId": "COAK-153381",
+    "FilerStateId": "1345259"
+  },
+  {
+    "Tran_Amt1": 958.33,
+    "Tran_Date": "2016-05-02",
+    "Tran_NamF": null,
+    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+    "FilerLocalId": "COAK-153381",
+    "FilerStateId": "1345259"
+  },
+  {
+    "Tran_Amt1": 958.33,
+    "Tran_Date": "2016-06-01",
+    "Tran_NamF": null,
+    "Tran_NamL": "OAKLAND EDUCATION ASSOCIATION",
+    "FilerLocalId": "COAK-153381",
     "FilerStateId": "1345259"
   }
 ]

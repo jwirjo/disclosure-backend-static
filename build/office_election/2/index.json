@@ -26,6 +26,10 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Committee": 7300.0,
+          "Individual": 33483.16,
+          "Unitemized": 2722.92,
+          "Other (includes Businesses)": 11200.0
         },
         "expenditures_by_type": {
         }
@@ -38,6 +42,10 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Committee": 7300.0,
+        "Individual": 33483.16,
+        "Unitemized": 2722.92,
+        "Other (includes Businesses)": 11200.0
       },
       "expenditures_by_type": {
       }

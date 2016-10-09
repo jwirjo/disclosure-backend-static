@@ -21,43 +21,33 @@
       "party_affiliation": null,
       "filer_id": 1387803,
       "supporting_money": {
-        "contributions_received": 11836.0,
-        "total_contributions": 11836.0,
-        "total_expenditures": 6170.1,
-        "total_loans_received": 0.0,
+        "contributions_received": null,
+        "total_contributions": null,
+        "total_expenditures": null,
+        "total_loans_received": null,
         "contributions_by_type": {
           "Committee": 1500.0,
           "Individual": 10286.0,
           "Unitemized": 50.0
         },
         "expenditures_by_type": {
-          "Not Stated": 35916.83,
-          "Fundraising Events": 300.8,
-          "Campaign Consultants": 2500.0,
-          "Campaign Paraphernalia/Misc.": 1095.75,
-          "Candidate Filing/Ballot Fees": 250.0,
-          "Professional Services (Legal, Accounting)": 1786.0
+          "Not Stated": 35916.83
         }
       },
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": 11836.0,
-      "total_contributions": 11836.0,
-      "total_expenditures": 6170.1,
-      "total_loans_received": 0.0,
+      "contributions_received": null,
+      "total_contributions": null,
+      "total_expenditures": null,
+      "total_loans_received": null,
       "contributions_by_type": {
         "Committee": 1500.0,
         "Individual": 10286.0,
         "Unitemized": 50.0
       },
       "expenditures_by_type": {
-        "Not Stated": 35916.83,
-        "Fundraising Events": 300.8,
-        "Campaign Consultants": 2500.0,
-        "Campaign Paraphernalia/Misc.": 1095.75,
-        "Candidate Filing/Ballot Fees": 250.0,
-        "Professional Services (Legal, Accounting)": 1786.0
+        "Not Stated": 35916.83
       }
     },
     {
@@ -83,6 +73,9 @@
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
+          "Committee": 4200.0,
+          "Individual": 3450.0,
+          "Unitemized": 1972.0
         },
         "expenditures_by_type": {
         }
@@ -95,6 +88,9 @@
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
+        "Committee": 4200.0,
+        "Individual": 3450.0,
+        "Unitemized": 1972.0
       },
       "expenditures_by_type": {
       }

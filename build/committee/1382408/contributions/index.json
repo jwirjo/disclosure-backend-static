@@ -4,6 +4,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": null,
     "Tran_NamL": "AJE Partners",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -11,6 +12,7 @@
     "Tran_Date": "2016-02-24",
     "Tran_NamF": "Hatzune",
     "Tran_NamL": "Aguilar",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -18,6 +20,15 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Ronald",
     "Tran_NamL": "Alterman",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 75.0,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": "Luis",
+    "Tran_NamL": "Amezcua",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -25,13 +36,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Luis",
     "Tran_NamL": "Amezcua",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 75.0,
-    "Tran_Date": "2016-08-15",
-    "Tran_NamF": "Luis",
-    "Tran_NamL": "Amezcua",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -39,6 +44,7 @@
     "Tran_Date": "2016-06-09",
     "Tran_NamF": "Tim",
     "Tran_NamL": "Anderson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -46,6 +52,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Jasmin",
     "Tran_NamL": "Ansar",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -53,6 +60,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "James",
     "Tran_NamL": "Anthony",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -60,6 +68,7 @@
     "Tran_Date": "2016-08-31",
     "Tran_NamF": null,
     "Tran_NamL": "BBI Construction",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -67,6 +76,7 @@
     "Tran_Date": "2016-08-09",
     "Tran_NamF": "Brett",
     "Tran_NamL": "Badelle",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -74,20 +84,7 @@
     "Tran_Date": "2016-05-26",
     "Tran_NamF": "Brandon",
     "Tran_NamL": "Baranco",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 57.0,
-    "Tran_Date": "2016-08-12",
-    "Tran_NamF": "Michael",
-    "Tran_NamL": "Barnett",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-06-30",
-    "Tran_NamF": "Michael",
-    "Tran_NamL": "Barnett",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -95,6 +92,23 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Barnett",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-06-30",
+    "Tran_NamF": "Michael",
+    "Tran_NamL": "Barnett",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 57.0,
+    "Tran_Date": "2016-08-12",
+    "Tran_NamF": "Michael",
+    "Tran_NamL": "Barnett",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -102,6 +116,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Bass",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -109,6 +124,7 @@
     "Tran_Date": "2016-06-15",
     "Tran_NamF": null,
     "Tran_NamL": "Bay Area Citizens PAC - All Purpose Account",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -116,6 +132,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Kenneth",
     "Tran_NamL": "Benson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -123,6 +140,7 @@
     "Tran_Date": "2016-04-21",
     "Tran_NamF": "Jennifer",
     "Tran_NamL": "Berg",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -130,13 +148,7 @@
     "Tran_Date": "2016-04-28",
     "Tran_NamF": "Steve",
     "Tran_NamL": "Berley",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-08-22",
-    "Tran_NamF": "Anthony",
-    "Tran_NamL": "Bernhardt",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -144,6 +156,15 @@
     "Tran_Date": "2016-07-01",
     "Tran_NamF": "Anthony",
     "Tran_NamL": "Bernhardt",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-08-22",
+    "Tran_NamF": "Anthony",
+    "Tran_NamL": "Bernhardt",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -151,6 +172,7 @@
     "Tran_Date": "2016-07-25",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Bonta",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -158,6 +180,7 @@
     "Tran_Date": "2016-08-17",
     "Tran_NamF": "Fred",
     "Tran_NamL": "Booker",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -165,6 +188,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Fred",
     "Tran_NamL": "Booker",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -172,6 +196,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Roland",
     "Tran_NamL": "Brandel",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -179,6 +204,7 @@
     "Tran_Date": "2016-09-09",
     "Tran_NamF": null,
     "Tran_NamL": "Bricklayers and Allied Craftworkers Local No. 3 Political Action Committee",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -186,6 +212,7 @@
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Shelagh",
     "Tran_NamL": "Broderson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -193,6 +220,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Patricia",
     "Tran_NamL": "Brooks",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -200,6 +228,7 @@
     "Tran_Date": "2016-03-24",
     "Tran_NamF": "Amy",
     "Tran_NamL": "Brothers",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -207,6 +236,7 @@
     "Tran_Date": "2016-08-30",
     "Tran_NamF": "Elize",
     "Tran_NamL": "Brown",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -214,6 +244,7 @@
     "Tran_Date": "2016-07-03",
     "Tran_NamF": "Gloria",
     "Tran_NamL": "Bruce",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -221,6 +252,7 @@
     "Tran_Date": "2016-05-19",
     "Tran_NamF": "Pamela",
     "Tran_NamL": "Burdman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -228,6 +260,7 @@
     "Tran_Date": "2016-08-09",
     "Tran_NamF": "Jerome",
     "Tran_NamL": "Buttrick",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -235,13 +268,7 @@
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Stephen",
     "Tran_NamL": "Cassidy",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-09-20",
-    "Tran_NamF": "Sanford",
-    "Tran_NamL": "Chan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -249,13 +276,15 @@
     "Tran_Date": "2016-06-17",
     "Tran_NamF": "Gregory",
     "Tran_NamL": "Chan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-07-31",
-    "Tran_NamF": "Stephen",
-    "Tran_NamL": "Chessin",
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-09-20",
+    "Tran_NamF": "Sanford",
+    "Tran_NamL": "Chan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -263,6 +292,15 @@
     "Tran_Date": "2016-06-26",
     "Tran_NamF": "Stephen",
     "Tran_NamL": "Chessin",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-07-31",
+    "Tran_NamF": "Stephen",
+    "Tran_NamL": "Chessin",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -270,6 +308,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Ener",
     "Tran_NamL": "Chiu",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -277,6 +316,7 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "Dan",
     "Tran_NamL": "Cohen",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -284,6 +324,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Marsha",
     "Tran_NamL": "Converse",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -291,6 +332,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Judith",
     "Tran_NamL": "Cox",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -298,6 +340,7 @@
     "Tran_Date": "2016-06-29",
     "Tran_NamF": "Janet",
     "Tran_NamL": "Cox",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -305,6 +348,7 @@
     "Tran_Date": "2016-07-02",
     "Tran_NamF": "Francesca",
     "Tran_NamL": "Cunningham",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -312,6 +356,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Glen",
     "Tran_NamL": "Dahlbacka",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -319,6 +364,7 @@
     "Tran_Date": "2016-05-01",
     "Tran_NamF": "Gia",
     "Tran_NamL": "Daniller",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -326,6 +372,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Susan",
     "Tran_NamL": "DeVico",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -333,6 +380,7 @@
     "Tran_Date": "2016-09-15",
     "Tran_NamF": "Francisco",
     "Tran_NamL": "Devries",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -340,6 +388,7 @@
     "Tran_Date": "2016-04-21",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Dockendorf",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -347,6 +396,7 @@
     "Tran_Date": "2016-08-23",
     "Tran_NamF": "Richard",
     "Tran_NamL": "Drury",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -354,6 +404,7 @@
     "Tran_Date": "2016-09-16",
     "Tran_NamF": "Elizabeth",
     "Tran_NamL": "Echols",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -361,6 +412,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Bob",
     "Tran_NamL": "Epstein",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -368,6 +420,7 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "Mark",
     "Tran_NamL": "Fickes",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -375,6 +428,7 @@
     "Tran_Date": "2016-08-04",
     "Tran_NamF": "Debbie",
     "Tran_NamL": "Fischer",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -382,6 +436,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Stuart",
     "Tran_NamL": "Flashman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -389,6 +444,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Lora Jo",
     "Tran_NamL": "Foo",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -396,6 +452,7 @@
     "Tran_Date": "2016-05-26",
     "Tran_NamF": "Matthew",
     "Tran_NamL": "Friedman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -403,6 +460,7 @@
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Danielle",
     "Tran_NamL": "Fugere",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -410,6 +468,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Ed",
     "Tran_NamL": "Gerber",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -417,6 +476,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Dale",
     "Tran_NamL": "Gieringer",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -424,6 +484,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Kenneth",
     "Tran_NamL": "Greenberg",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -431,6 +492,7 @@
     "Tran_Date": "2016-02-25",
     "Tran_NamF": "Allen",
     "Tran_NamL": "Grodsky",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -438,6 +500,7 @@
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Abel",
     "Tran_NamL": "Guillen",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -445,6 +508,7 @@
     "Tran_Date": "2016-05-05",
     "Tran_NamF": "Sophie",
     "Tran_NamL": "Hahn",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -452,6 +516,7 @@
     "Tran_Date": "2016-06-29",
     "Tran_NamF": "Sophie",
     "Tran_NamL": "Hahn",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -459,6 +524,7 @@
     "Tran_Date": "2016-06-15",
     "Tran_NamF": "Earl",
     "Tran_NamL": "Hamlin",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -466,6 +532,7 @@
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "Alan",
     "Tran_NamL": "Harper",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -473,6 +540,7 @@
     "Tran_Date": "2016-07-02",
     "Tran_NamF": "Ann",
     "Tran_NamL": "Harvey",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -480,6 +548,7 @@
     "Tran_Date": "2016-09-24",
     "Tran_NamF": "Arthur",
     "Tran_NamL": "Haubenstock",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -487,6 +556,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Paula",
     "Tran_NamL": "Hawthorn",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -494,6 +564,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "C. J.",
     "Tran_NamL": "Hirschfield",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -501,6 +572,7 @@
     "Tran_Date": "2016-09-02",
     "Tran_NamF": "David",
     "Tran_NamL": "Hochschild",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -508,6 +580,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Brian",
     "Tran_NamL": "Hofer",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -515,6 +588,7 @@
     "Tran_Date": "2016-05-05",
     "Tran_NamF": "Heather",
     "Tran_NamL": "Hood",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -522,6 +596,7 @@
     "Tran_Date": "2016-05-01",
     "Tran_NamF": "Lisa",
     "Tran_NamL": "Hoyos",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -529,6 +604,7 @@
     "Tran_Date": "2016-07-20",
     "Tran_NamF": "Laura",
     "Tran_NamL": "Ingram",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -536,6 +612,7 @@
     "Tran_Date": "2016-07-25",
     "Tran_NamF": null,
     "Tran_NamL": "International Brotherhood of Electrical Workers Local 595 PAC",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -543,6 +620,7 @@
     "Tran_Date": "2016-05-09",
     "Tran_NamF": "Lisa",
     "Tran_NamL": "Jaicks",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -550,6 +628,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Lisa",
     "Tran_NamL": "Jaicks",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -557,6 +636,7 @@
     "Tran_Date": "2016-02-25",
     "Tran_NamF": "Roger",
     "Tran_NamL": "Janeway",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -564,6 +644,7 @@
     "Tran_Date": "2016-07-24",
     "Tran_NamF": "Steven",
     "Tran_NamL": "Jenner",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -571,6 +652,7 @@
     "Tran_Date": "2016-09-16",
     "Tran_NamF": "Dan",
     "Tran_NamL": "Jewett",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -578,6 +660,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Sheila",
     "Tran_NamL": "Jordan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -585,34 +668,7 @@
     "Tran_Date": "2016-08-08",
     "Tran_NamF": "Nicholas",
     "Tran_NamL": "Josefowitz",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 700.0,
-    "Tran_Date": "2016-06-30",
-    "Tran_NamF": "Valarie",
-    "Tran_NamL": "Kalb",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-06-14",
-    "Tran_NamF": "David",
-    "Tran_NamL": "Kalb",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-09-23",
-    "Tran_NamF": "Dan",
-    "Tran_NamL": "Kalb",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 125.0,
-    "Tran_Date": "2016-02-25",
-    "Tran_NamF": "Noah",
-    "Tran_NamL": "Kalb",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -620,13 +676,39 @@
     "Tran_Date": "2016-02-24",
     "Tran_NamF": "Scott",
     "Tran_NamL": "Kalb",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
-    "Tran_Amt1": 75.0,
-    "Tran_Date": "2016-09-24",
-    "Tran_NamF": "Ann",
-    "Tran_NamL": "Kalb-Kip",
+    "Tran_Amt1": 125.0,
+    "Tran_Date": "2016-02-25",
+    "Tran_NamF": "Noah",
+    "Tran_NamL": "Kalb",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-06-14",
+    "Tran_NamF": "David",
+    "Tran_NamL": "Kalb",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 700.0,
+    "Tran_Date": "2016-06-30",
+    "Tran_NamF": "Valarie",
+    "Tran_NamL": "Kalb",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Dan",
+    "Tran_NamL": "Kalb",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -634,6 +716,7 @@
     "Tran_Date": "2016-02-25",
     "Tran_NamF": "Ann",
     "Tran_NamL": "Kalb-Kip",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -641,13 +724,15 @@
     "Tran_Date": "2016-06-29",
     "Tran_NamF": "Ann",
     "Tran_NamL": "Kalb-Kip",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
-    "Tran_Amt1": 125.0,
-    "Tran_Date": "2016-08-27",
-    "Tran_NamF": "Robert",
-    "Tran_NamL": "Katz",
+    "Tran_Amt1": 75.0,
+    "Tran_Date": "2016-09-24",
+    "Tran_NamF": "Ann",
+    "Tran_NamL": "Kalb-Kip",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -655,6 +740,15 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Leslie",
     "Tran_NamL": "Katz",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 125.0,
+    "Tran_Date": "2016-08-27",
+    "Tran_NamF": "Robert",
+    "Tran_NamL": "Katz",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -662,6 +756,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Jonathan",
     "Tran_NamL": "Kaufman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -669,6 +764,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "David",
     "Tran_NamL": "Keenan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -676,6 +772,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Andy",
     "Tran_NamL": "Kelley",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -683,6 +780,7 @@
     "Tran_Date": "2016-09-15",
     "Tran_NamF": "Patricia",
     "Tran_NamL": "Kernighan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -690,6 +788,7 @@
     "Tran_Date": "2016-08-30",
     "Tran_NamF": "Clinton",
     "Tran_NamL": "Killian",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -697,6 +796,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Earl",
     "Tran_NamL": "Koteen",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -704,6 +804,7 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "George",
     "Tran_NamL": "Krevsky",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -711,6 +812,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Jack",
     "Tran_NamL": "Kurzweil",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -718,6 +820,7 @@
     "Tran_Date": "2016-09-02",
     "Tran_NamF": "Sam",
     "Tran_NamL": "Lauter",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -725,6 +828,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Carter",
     "Tran_NamL": "Lavin",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -732,6 +836,7 @@
     "Tran_Date": "2016-06-20",
     "Tran_NamF": "James",
     "Tran_NamL": "Lawson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -739,6 +844,7 @@
     "Tran_Date": "2016-09-15",
     "Tran_NamF": "Mark",
     "Tran_NamL": "Leno",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -746,6 +852,7 @@
     "Tran_Date": "2016-06-19",
     "Tran_NamF": "Shira",
     "Tran_NamL": "Levine",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -753,6 +860,7 @@
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "Claire",
     "Tran_NamL": "Levine",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -760,6 +868,7 @@
     "Tran_Date": "2016-09-14",
     "Tran_NamF": "Moses",
     "Tran_NamL": "Libitzky",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -767,6 +876,7 @@
     "Tran_Date": "2016-07-20",
     "Tran_NamF": null,
     "Tran_NamL": "Lighthouse Public Affairs, LLC",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -774,6 +884,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Gordon",
     "Tran_NamL": "Link",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -781,6 +892,7 @@
     "Tran_Date": "2016-09-24",
     "Tran_NamF": "Gordon",
     "Tran_NamL": "Link",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -788,6 +900,7 @@
     "Tran_Date": "2016-09-15",
     "Tran_NamF": "Rafael",
     "Tran_NamL": "Mandelman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -795,6 +908,7 @@
     "Tran_Date": "2016-06-27",
     "Tran_NamF": "Honey",
     "Tran_NamL": "Mark",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -802,6 +916,7 @@
     "Tran_Date": "2016-06-27",
     "Tran_NamF": "Melvyn",
     "Tran_NamL": "Mark",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -809,6 +924,7 @@
     "Tran_Date": "2016-08-24",
     "Tran_NamF": "Esther",
     "Tran_NamL": "Marks",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -816,6 +932,7 @@
     "Tran_Date": "2016-08-31",
     "Tran_NamF": "Anne",
     "Tran_NamL": "Marks",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -823,6 +940,7 @@
     "Tran_Date": "2016-07-28",
     "Tran_NamF": "Charles",
     "Tran_NamL": "Marsteller",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -830,6 +948,7 @@
     "Tran_Date": "2016-06-04",
     "Tran_NamF": "Suzanne",
     "Tran_NamL": "Mason",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -837,6 +956,7 @@
     "Tran_Date": "2016-02-24",
     "Tran_NamF": "Richard",
     "Tran_NamL": "Matthews",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -844,6 +964,7 @@
     "Tran_Date": "2016-05-05",
     "Tran_NamF": "Joseph",
     "Tran_NamL": "McCarthy",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -851,6 +972,7 @@
     "Tran_Date": "2016-05-01",
     "Tran_NamF": "Paul",
     "Tran_NamL": "Melbostad",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -858,6 +980,7 @@
     "Tran_Date": "2016-09-15",
     "Tran_NamF": "R.B.",
     "Tran_NamL": "Mendelson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -865,6 +988,7 @@
     "Tran_Date": "2016-05-06",
     "Tran_NamF": "Sharon",
     "Tran_NamL": "Miller",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -872,6 +996,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Mills",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -879,6 +1004,7 @@
     "Tran_Date": "2016-07-19",
     "Tran_NamF": "Carolyn",
     "Tran_NamL": "Mixon",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -886,6 +1012,7 @@
     "Tran_Date": "2016-09-03",
     "Tran_NamF": "Carolyn",
     "Tran_NamL": "Mixon",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -893,6 +1020,7 @@
     "Tran_Date": "2016-08-05",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Montauk",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -900,6 +1028,7 @@
     "Tran_Date": "2016-05-04",
     "Tran_NamF": "Jane",
     "Tran_NamL": "Morrison",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -907,6 +1036,7 @@
     "Tran_Date": "2016-09-13",
     "Tran_NamF": null,
     "Tran_NamL": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -914,6 +1044,7 @@
     "Tran_Date": "2016-08-12",
     "Tran_NamF": null,
     "Tran_NamL": "Nautilus Group",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -921,13 +1052,7 @@
     "Tran_Date": "2016-09-24",
     "Tran_NamF": "Ortrun",
     "Tran_NamL": "Niesar",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-09-22",
-    "Tran_NamF": "Bruce",
-    "Tran_NamL": "Nilles",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -935,6 +1060,15 @@
     "Tran_Date": "2016-07-07",
     "Tran_NamF": "Bruce",
     "Tran_NamL": "Nilles",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-22",
+    "Tran_NamF": "Bruce",
+    "Tran_NamL": "Nilles",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -942,6 +1076,7 @@
     "Tran_Date": "2016-04-29",
     "Tran_NamF": null,
     "Tran_NamL": "Northern California Carpenters Regional Council Small Contributor Committee",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -949,6 +1084,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Jody",
     "Tran_NamL": "Nunez",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -956,6 +1092,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Bruce",
     "Tran_NamL": "Nye",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -963,6 +1100,7 @@
     "Tran_Date": "2016-09-06",
     "Tran_NamF": "CJ",
     "Tran_NamL": "Omara",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -970,6 +1108,7 @@
     "Tran_Date": "2016-05-04",
     "Tran_NamF": null,
     "Tran_NamL": "Operating Engineers Local Union No. 3, District 20 PAC",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -977,6 +1116,7 @@
     "Tran_Date": "2016-06-16",
     "Tran_NamF": null,
     "Tran_NamL": "PMACC dba Harborside Health Center",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -984,6 +1124,7 @@
     "Tran_Date": "2016-06-27",
     "Tran_NamF": "William",
     "Tran_NamL": "Patterson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -991,6 +1132,7 @@
     "Tran_Date": "2016-09-08",
     "Tran_NamF": "David",
     "Tran_NamL": "Pepper",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -998,6 +1140,7 @@
     "Tran_Date": "2016-08-01",
     "Tran_NamF": "Howie",
     "Tran_NamL": "Perlin",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1005,13 +1148,7 @@
     "Tran_Date": "2016-09-02",
     "Tran_NamF": "Barry",
     "Tran_NamL": "Pilger",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-06-16",
-    "Tran_NamF": "Sue",
-    "Tran_NamL": "Piper",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1019,6 +1156,15 @@
     "Tran_Date": "2016-03-31",
     "Tran_NamF": "Sue",
     "Tran_NamL": "Piper",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-06-16",
+    "Tran_NamF": "Sue",
+    "Tran_NamL": "Piper",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1026,6 +1172,7 @@
     "Tran_Date": "2016-07-28",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Planthold",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1033,6 +1180,7 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "Janis",
     "Tran_NamL": "Plotkin",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1040,6 +1188,7 @@
     "Tran_Date": "2016-05-01",
     "Tran_NamF": "Rebecca",
     "Tran_NamL": "Prozan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1047,6 +1196,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "William",
     "Tran_NamL": "Purcell",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1054,6 +1204,7 @@
     "Tran_Date": "2016-09-24",
     "Tran_NamF": "William",
     "Tran_NamL": "Purcell",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1061,6 +1212,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Jean",
     "Tran_NamL": "Quan",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1068,6 +1220,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Raburn",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1075,6 +1228,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Tom",
     "Tran_NamL": "Radulovich",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1082,6 +1236,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Raich",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1089,13 +1244,7 @@
     "Tran_Date": "2016-07-31",
     "Tran_NamF": "Clifford",
     "Tran_NamL": "Rechtschaffen",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 250.0,
-    "Tran_Date": "2016-09-24",
-    "Tran_NamF": "Sue",
-    "Tran_NamL": "Reinhold",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1103,13 +1252,15 @@
     "Tran_Date": "2016-05-19",
     "Tran_NamF": "Sue",
     "Tran_NamL": "Reinhold",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-09-23",
-    "Tran_NamF": "Adolph",
-    "Tran_NamL": "Rosekrans",
+    "Tran_Amt1": 250.0,
+    "Tran_Date": "2016-09-24",
+    "Tran_NamF": "Sue",
+    "Tran_NamL": "Reinhold",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1117,6 +1268,15 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "Adolph",
     "Tran_NamL": "Rosekrans",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Adolph",
+    "Tran_NamL": "Rosekrans",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1124,6 +1284,7 @@
     "Tran_Date": "2016-09-18",
     "Tran_NamF": "Margaret",
     "Tran_NamL": "Rossoff",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1131,20 +1292,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Frank",
     "Tran_NamL": "Russo",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 57.0,
-    "Tran_Date": "2016-08-15",
-    "Tran_NamF": "Rebecca",
-    "Tran_NamL": "Saltzman",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 75.0,
-    "Tran_Date": "2016-09-23",
-    "Tran_NamF": "Rebecca",
-    "Tran_NamL": "Saltzman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1152,6 +1300,23 @@
     "Tran_Date": "2016-06-26",
     "Tran_NamF": "Rebecca",
     "Tran_NamL": "Saltzman",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 57.0,
+    "Tran_Date": "2016-08-15",
+    "Tran_NamF": "Rebecca",
+    "Tran_NamL": "Saltzman",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 75.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Rebecca",
+    "Tran_NamL": "Saltzman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1159,13 +1324,7 @@
     "Tran_Date": "2016-07-24",
     "Tran_NamF": "Libby",
     "Tran_NamL": "Schaaf",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 60.0,
-    "Tran_Date": "2016-09-22",
-    "Tran_NamF": "Steven",
-    "Tran_NamL": "Schiller",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1173,6 +1332,23 @@
     "Tran_Date": "2016-08-06",
     "Tran_NamF": "Steven",
     "Tran_NamL": "Schiller",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 60.0,
+    "Tran_Date": "2016-09-22",
+    "Tran_NamF": "Steven",
+    "Tran_NamL": "Schiller",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-05-26",
+    "Tran_NamF": "Laura",
+    "Tran_NamL": "Schlichtmann",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1180,13 +1356,7 @@
     "Tran_Date": "2016-08-10",
     "Tran_NamF": "Laura",
     "Tran_NamL": "Schlichtmann",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-05-26",
-    "Tran_NamF": "Laura",
-    "Tran_NamL": "Schlichtmann",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1194,6 +1364,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Kenneth",
     "Tran_NamL": "Schmier",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1201,6 +1372,7 @@
     "Tran_Date": "2016-04-28",
     "Tran_NamF": "Harmon",
     "Tran_NamL": "Schragge",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1208,6 +1380,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Samuel",
     "Tran_NamL": "Schuchat",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1215,6 +1388,7 @@
     "Tran_Date": "2016-06-29",
     "Tran_NamF": "Lynda",
     "Tran_NamL": "Schwartz",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1222,6 +1396,7 @@
     "Tran_Date": "2016-03-17",
     "Tran_NamF": "Cheri",
     "Tran_NamL": "Shankar",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1229,6 +1404,7 @@
     "Tran_Date": "2016-09-16",
     "Tran_NamF": "Renee",
     "Tran_NamL": "Sharp",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1236,6 +1412,7 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Shawl",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1243,13 +1420,7 @@
     "Tran_Date": "2016-07-26",
     "Tran_NamF": null,
     "Tran_NamL": "Sheet Metal Workers International Association Local No. 104 Political Action Committee",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 200.0,
-    "Tran_Date": "2016-08-09",
-    "Tran_NamF": "Janna",
-    "Tran_NamL": "Sidley",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1257,6 +1428,15 @@
     "Tran_Date": "2016-03-03",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Sidley",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 200.0,
+    "Tran_Date": "2016-08-09",
+    "Tran_NamF": "Janna",
+    "Tran_NamL": "Sidley",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1264,6 +1444,7 @@
     "Tran_Date": "2016-06-10",
     "Tran_NamF": null,
     "Tran_NamL": "Sign Pictorial & Display (L.U. No. 510)",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1271,13 +1452,7 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "Sam",
     "Tran_NamL": "Singer",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-06-18",
-    "Tran_NamF": "Nancy",
-    "Tran_NamL": "Skinner",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1285,20 +1460,15 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "Nancy",
     "Tran_NamL": "Skinner",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
-    "Tran_Amt1": 25.0,
-    "Tran_Date": "2016-08-12",
-    "Tran_NamF": "Bernard",
-    "Tran_NamL": "Smith",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 25.0,
-    "Tran_Date": "2016-09-23",
-    "Tran_NamF": "Bernard",
-    "Tran_NamL": "Smith",
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-06-18",
+    "Tran_NamF": "Nancy",
+    "Tran_NamL": "Skinner",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1306,6 +1476,23 @@
     "Tran_Date": "2016-07-01",
     "Tran_NamF": "Bernard",
     "Tran_NamL": "Smith",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 25.0,
+    "Tran_Date": "2016-08-12",
+    "Tran_NamF": "Bernard",
+    "Tran_NamL": "Smith",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 25.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": "Bernard",
+    "Tran_NamL": "Smith",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1313,6 +1500,7 @@
     "Tran_Date": "2016-05-22",
     "Tran_NamF": "Richard",
     "Tran_NamL": "Speiglman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1320,6 +1508,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Richard",
     "Tran_NamL": "Speiglman",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1327,6 +1516,7 @@
     "Tran_Date": "2016-05-31",
     "Tran_NamF": null,
     "Tran_NamL": "Sprinkler Fitters and Apprentices Local 438 Local PAC",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1334,6 +1524,7 @@
     "Tran_Date": "2016-03-18",
     "Tran_NamF": "Nancy",
     "Tran_NamL": "Stephens",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1341,6 +1532,7 @@
     "Tran_Date": "2016-06-28",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Stephenson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1348,6 +1540,7 @@
     "Tran_Date": "2016-09-22",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Stephenson",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1355,6 +1548,7 @@
     "Tran_Date": "2016-08-16",
     "Tran_NamF": "Kathryn",
     "Tran_NamL": "Sterbenc",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1362,6 +1556,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Kathryn",
     "Tran_NamL": "Sterbenc",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1369,6 +1564,7 @@
     "Tran_Date": "2016-06-25",
     "Tran_NamF": "Mark",
     "Tran_NamL": "Stout",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1376,6 +1572,7 @@
     "Tran_Date": "2016-09-18",
     "Tran_NamF": "Mark",
     "Tran_NamL": "Stout",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1383,6 +1580,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Taylor",
     "Tran_NamL": "Sublett",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1390,6 +1588,7 @@
     "Tran_Date": "2016-06-30",
     "Tran_NamF": "David",
     "Tran_NamL": "Sutton",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1397,6 +1596,7 @@
     "Tran_Date": "2016-08-30",
     "Tran_NamF": "Paul",
     "Tran_NamL": "Tavernier",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1404,6 +1604,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Delia",
     "Tran_NamL": "Taylor",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1411,6 +1612,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Carol",
     "Tran_NamL": "Tolbert",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1418,6 +1620,7 @@
     "Tran_Date": "2016-03-24",
     "Tran_NamF": "Michele",
     "Tran_NamL": "Townsend",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1425,6 +1628,7 @@
     "Tran_Date": "2016-08-22",
     "Tran_NamF": null,
     "Tran_NamL": "U.A. Local 342 P.A.C. Fund",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1432,6 +1636,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Ubell",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1439,6 +1644,7 @@
     "Tran_Date": "2016-08-29",
     "Tran_NamF": "Laurie",
     "Tran_NamL": "Umeh",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1446,6 +1652,7 @@
     "Tran_Date": "2016-09-23",
     "Tran_NamF": "Zac",
     "Tran_NamL": "Unger",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1453,6 +1660,7 @@
     "Tran_Date": "2016-09-09",
     "Tran_NamF": "Ruth",
     "Tran_NamL": "Vose",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1460,6 +1668,7 @@
     "Tran_Date": "2016-07-22",
     "Tran_NamF": "Johanna",
     "Tran_NamL": "Wald",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1467,6 +1676,7 @@
     "Tran_Date": "2016-05-01",
     "Tran_NamF": "Debra",
     "Tran_NamL": "Walker",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1474,6 +1684,7 @@
     "Tran_Date": "2016-08-03",
     "Tran_NamF": "Robert",
     "Tran_NamL": "Warwick",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1481,6 +1692,7 @@
     "Tran_Date": "2016-04-25",
     "Tran_NamF": "Roland",
     "Tran_NamL": "Washington",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1488,6 +1700,7 @@
     "Tran_Date": "2016-05-26",
     "Tran_NamF": "Alice",
     "Tran_NamL": "Webber",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1495,6 +1708,7 @@
     "Tran_Date": "2016-09-19",
     "Tran_NamF": "Al",
     "Tran_NamL": "Weinrub",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1502,6 +1716,7 @@
     "Tran_Date": "2016-06-18",
     "Tran_NamF": "Karen",
     "Tran_NamL": "Weinstein",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1509,13 +1724,7 @@
     "Tran_Date": "2016-08-15",
     "Tran_NamF": "Stan",
     "Tran_NamL": "Weisner",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 50.0,
-    "Tran_Date": "2016-09-24",
-    "Tran_NamF": "Forest",
-    "Tran_NamL": "Weld",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1523,6 +1732,15 @@
     "Tran_Date": "2016-07-02",
     "Tran_NamF": "Forest",
     "Tran_NamL": "Weld",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 50.0,
+    "Tran_Date": "2016-09-24",
+    "Tran_NamF": "Forest",
+    "Tran_NamL": "Weld",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1530,6 +1748,7 @@
     "Tran_Date": "2016-09-21",
     "Tran_NamF": "Howard",
     "Tran_NamL": "Wenger",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1537,6 +1756,7 @@
     "Tran_Date": "2016-07-28",
     "Tran_NamF": "Andrew",
     "Tran_NamL": "Wiener",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1544,6 +1764,7 @@
     "Tran_Date": "2016-09-21",
     "Tran_NamF": "Judith",
     "Tran_NamL": "Williams",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1551,6 +1772,7 @@
     "Tran_Date": "2016-08-05",
     "Tran_NamF": "Laura",
     "Tran_NamL": "Wisland",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1558,6 +1780,7 @@
     "Tran_Date": "2016-09-20",
     "Tran_NamF": "Laura",
     "Tran_NamL": "Wisland",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1565,6 +1788,7 @@
     "Tran_Date": "2016-02-28",
     "Tran_NamF": "Michael",
     "Tran_NamL": "Woo",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1572,6 +1796,7 @@
     "Tran_Date": "2016-09-21",
     "Tran_NamF": "David",
     "Tran_NamL": "Wooley",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1579,13 +1804,7 @@
     "Tran_Date": "2016-06-15",
     "Tran_NamF": "Rivka",
     "Tran_NamL": "Yerushalmi",
-    "FilerStateId": "1382408"
-  },
-  {
-    "Tran_Amt1": 125.0,
-    "Tran_Date": "2016-09-19",
-    "Tran_NamF": "Marguerite",
-    "Tran_NamL": "Young",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1593,13 +1812,15 @@
     "Tran_Date": "2016-06-23",
     "Tran_NamF": "Andrew",
     "Tran_NamL": "Young",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
-    "Tran_Amt1": 100.0,
-    "Tran_Date": "2016-09-05",
-    "Tran_NamF": "Bradley",
-    "Tran_NamL": "Zebrack",
+    "Tran_Amt1": 125.0,
+    "Tran_Date": "2016-09-19",
+    "Tran_NamF": "Marguerite",
+    "Tran_NamL": "Young",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   },
   {
@@ -1607,6 +1828,15 @@
     "Tran_Date": "2016-06-11",
     "Tran_NamF": "Bradley",
     "Tran_NamL": "Zebrack",
+    "FilerLocalId": "COAK-154088",
+    "FilerStateId": "1382408"
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-09-05",
+    "Tran_NamF": "Bradley",
+    "Tran_NamL": "Zebrack",
+    "FilerLocalId": "COAK-154088",
     "FilerStateId": "1382408"
   }
 ]

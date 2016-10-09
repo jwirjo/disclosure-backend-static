@@ -1,16 +1,34 @@
 [
   {
-    "Tran_Amt1": 40000.0,
-    "Tran_Date": "2016-09-12",
-    "Tran_NamF": null,
-    "Tran_NamL": "ACCE Institute",
-    "FilerStateId": "1364564"
-  },
-  {
     "Tran_Amt1": 2000.0,
     "Tran_Date": "2016-04-14",
     "Tran_NamF": null,
     "Tran_NamL": "ACCE Institute",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 40000.0,
+    "Tran_Date": "2016-09-12",
+    "Tran_NamF": null,
+    "Tran_NamL": "ACCE Institute",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 100.0,
+    "Tran_Date": "2016-10-07",
+    "Tran_NamF": "Orson",
+    "Tran_NamL": "Aguilar",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 5000.0,
+    "Tran_Date": "2016-10-07",
+    "Tran_NamF": "Orson",
+    "Tran_NamL": "Aguilar",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -18,6 +36,23 @@
     "Tran_Date": "2016-08-25",
     "Tran_NamF": "Janet",
     "Tran_NamL": "Arnold",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 3000.0,
+    "Tran_Date": "2016-04-15",
+    "Tran_NamF": null,
+    "Tran_NamL": "Asian Pacific Environmental Network",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 3000.0,
+    "Tran_Date": "2016-04-27",
+    "Tran_NamF": null,
+    "Tran_NamL": "Asian Pacific Environmental Network",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -25,20 +60,7 @@
     "Tran_Date": "2016-05-10",
     "Tran_NamF": null,
     "Tran_NamL": "Asian Pacific Environmental Network",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 3000.0,
-    "Tran_Date": "2016-04-15",
-    "Tran_NamF": null,
-    "Tran_NamL": "Asian Pacific Environmental Network",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 3000.0,
-    "Tran_Date": "2016-04-27",
-    "Tran_NamF": null,
-    "Tran_NamL": "Asian Pacific Environmental Network",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -46,6 +68,7 @@
     "Tran_Date": "2016-09-12",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Bassein",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -53,6 +76,7 @@
     "Tran_Date": "2016-08-23",
     "Tran_NamF": "Donna",
     "Tran_NamL": "Bransford",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -60,13 +84,7 @@
     "Tran_Date": "2016-08-22",
     "Tran_NamF": "Brian",
     "Tran_NamL": "Brophy",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 519.47,
-    "Tran_Date": "2016-08-15",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -74,13 +92,7 @@
     "Tran_Date": "2016-01-01",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 10000.0,
-    "Tran_Date": "2016-09-26",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -88,6 +100,7 @@
     "Tran_Date": "2016-03-03",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -95,6 +108,7 @@
     "Tran_Date": "2016-04-02",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -102,6 +116,7 @@
     "Tran_Date": "2016-04-09",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -109,34 +124,15 @@
     "Tran_Date": "2016-04-11",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
-    "Tran_Amt1": 35000.0,
-    "Tran_Date": "2016-09-23",
+    "Tran_Amt1": 519.47,
+    "Tran_Date": "2016-08-15",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 1144.95,
-    "Tran_Date": "2016-09-13",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 59000.0,
-    "Tran_Date": "2016-09-09",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 89.0,
-    "Tran_Date": "2016-09-09",
-    "Tran_NamF": null,
-    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -144,6 +140,47 @@
     "Tran_Date": "2016-08-29",
     "Tran_NamF": null,
     "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 89.0,
+    "Tran_Date": "2016-09-09",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 59000.0,
+    "Tran_Date": "2016-09-09",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 1144.95,
+    "Tran_Date": "2016-09-13",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 35000.0,
+    "Tran_Date": "2016-09-23",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 10000.0,
+    "Tran_Date": "2016-09-26",
+    "Tran_NamF": null,
+    "Tran_NamL": "Causa Justa :: Just Cause (Nonprofit 501 (C)(3))",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -151,6 +188,7 @@
     "Tran_Date": "2016-04-28",
     "Tran_NamF": "Lin A.",
     "Tran_NamL": "Chin",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -158,6 +196,7 @@
     "Tran_Date": "2016-04-21",
     "Tran_NamF": null,
     "Tran_NamL": "Communities for a Better Environment",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -165,6 +204,7 @@
     "Tran_Date": "2016-04-22",
     "Tran_NamF": null,
     "Tran_NamL": "East Bay Alliance for a Sustainable Economy",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -172,6 +212,7 @@
     "Tran_Date": "2016-06-13",
     "Tran_NamF": null,
     "Tran_NamL": "East Bay Housing Organization",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -179,6 +220,7 @@
     "Tran_Date": "2016-09-26",
     "Tran_NamF": "Marie",
     "Tran_NamL": "Fox",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -186,6 +228,7 @@
     "Tran_Date": "2016-04-21",
     "Tran_NamF": "Jonathan",
     "Tran_NamL": "Heller",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -193,13 +236,7 @@
     "Tran_Date": "2016-08-26",
     "Tran_NamF": "Heather",
     "Tran_NamL": "Hood",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 500.0,
-    "Tran_Date": "2016-08-27",
-    "Tran_NamF": "Marc",
-    "Tran_NamL": "Janowitz",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -207,6 +244,15 @@
     "Tran_Date": "2016-08-02",
     "Tran_NamF": "Mark",
     "Tran_NamL": "Janowitz",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 500.0,
+    "Tran_Date": "2016-08-27",
+    "Tran_NamF": "Marc",
+    "Tran_NamL": "Janowitz",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -214,6 +260,7 @@
     "Tran_Date": "2016-04-27",
     "Tran_NamF": null,
     "Tran_NamL": "John George Democratic Club",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -221,6 +268,7 @@
     "Tran_Date": "2016-09-19",
     "Tran_NamF": null,
     "Tran_NamL": "John George Democratic Club",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -228,6 +276,7 @@
     "Tran_Date": "2016-04-27",
     "Tran_NamF": "Manel",
     "Tran_NamL": "Kappagoda",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -235,6 +284,7 @@
     "Tran_Date": "2016-05-03",
     "Tran_NamF": "Margaretta",
     "Tran_NamL": "Lin",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -242,6 +292,7 @@
     "Tran_Date": "2016-09-28",
     "Tran_NamF": "Celine",
     "Tran_NamL": "Liu",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -249,6 +300,15 @@
     "Tran_Date": "2016-08-02",
     "Tran_NamF": "Kristen",
     "Tran_NamL": "Loomis",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 1200.0,
+    "Tran_Date": "2016-10-06",
+    "Tran_NamF": null,
+    "Tran_NamL": "Mayor Libby Schaaf for Oakland",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -256,6 +316,7 @@
     "Tran_Date": "2016-05-12",
     "Tran_NamF": null,
     "Tran_NamL": "Movement Strategy Center",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -263,6 +324,7 @@
     "Tran_Date": "2016-04-22",
     "Tran_NamF": "Luke",
     "Tran_NamL": "Newton",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -270,6 +332,7 @@
     "Tran_Date": "2016-07-26",
     "Tran_NamF": "Luke",
     "Tran_NamL": "Newton",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -277,6 +340,7 @@
     "Tran_Date": "2016-04-15",
     "Tran_NamF": null,
     "Tran_NamL": "Oakland Community Organizations",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -284,6 +348,15 @@
     "Tran_Date": "2016-09-24",
     "Tran_NamF": null,
     "Tran_NamL": "Oakland Working Families, sponsored by labor and community organizations",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 11845.16,
+    "Tran_Date": "2016-10-07",
+    "Tran_NamF": null,
+    "Tran_NamL": "Oakland Working Families, sponsored by labor and community organizations",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -291,6 +364,7 @@
     "Tran_Date": "2016-09-28",
     "Tran_NamF": "Pamela",
     "Tran_NamL": "Perry",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -298,6 +372,7 @@
     "Tran_Date": "2016-04-20",
     "Tran_NamF": "Daniel Louis",
     "Tran_NamL": "Robinson",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -305,6 +380,7 @@
     "Tran_Date": "2016-08-16",
     "Tran_NamF": "Kalima",
     "Tran_NamL": "Rose",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -312,6 +388,7 @@
     "Tran_Date": "2016-09-24",
     "Tran_NamF": "Ronald",
     "Tran_NamL": "Rowell",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -319,6 +396,7 @@
     "Tran_Date": "2016-08-06",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Schacher",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -326,6 +404,7 @@
     "Tran_Date": "2016-09-14",
     "Tran_NamF": "Susan",
     "Tran_NamL": "Schacher",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -333,13 +412,7 @@
     "Tran_Date": "2016-01-08",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021",
-    "FilerStateId": "1364564"
-  },
-  {
-    "Tran_Amt1": 4350.74,
-    "Tran_Date": "2016-01-08",
-    "Tran_NamF": null,
-    "Tran_NamL": "Service Employees International Union Local 1021",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -347,13 +420,15 @@
     "Tran_Date": "2016-01-08",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
-    "Tran_Amt1": 12000.0,
-    "Tran_Date": "2016-09-21",
+    "Tran_Amt1": 4350.74,
+    "Tran_Date": "2016-01-08",
     "Tran_NamF": null,
-    "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+    "Tran_NamL": "Service Employees International Union Local 1021",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -361,6 +436,15 @@
     "Tran_Date": "2016-05-19",
     "Tran_NamF": null,
     "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+    "FilerLocalId": "COAK-153761",
+    "FilerStateId": "1364564"
+  },
+  {
+    "Tran_Amt1": 12000.0,
+    "Tran_Date": "2016-09-21",
+    "Tran_NamF": null,
+    "Tran_NamL": "Service Employees International Union Local 1021 Issues PAC",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -368,6 +452,7 @@
     "Tran_Date": "2016-04-27",
     "Tran_NamF": "Daniel M.",
     "Tran_NamL": "Siegel",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -375,6 +460,7 @@
     "Tran_Date": "2016-05-11",
     "Tran_NamF": "Alanya",
     "Tran_NamL": "Snyder",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -382,6 +468,7 @@
     "Tran_Date": "2016-07-05",
     "Tran_NamF": "Alanya",
     "Tran_NamL": "Snyder",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -389,6 +476,7 @@
     "Tran_Date": "2016-09-03",
     "Tran_NamF": "Joseph",
     "Tran_NamL": "Tobener",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -396,6 +484,7 @@
     "Tran_Date": "2016-05-09",
     "Tran_NamF": null,
     "Tran_NamL": "Unite Here Local 2850",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   },
   {
@@ -403,6 +492,7 @@
     "Tran_Date": "2016-05-10",
     "Tran_NamF": null,
     "Tran_NamL": "Wellstone Democratic Renewal Club PAC",
+    "FilerLocalId": "COAK-153761",
     "FilerStateId": "1364564"
   }
 ]

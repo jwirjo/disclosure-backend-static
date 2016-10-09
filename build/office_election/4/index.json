@@ -21,8 +21,8 @@
       "party_affiliation": null,
       "filer_id": 1387803,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
+        "contributions_received": 11836.0,
+        "total_contributions": 11836.0,
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
@@ -41,8 +41,8 @@
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
+      "contributions_received": 11836.0,
+      "total_contributions": 11836.0,
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
@@ -76,8 +76,8 @@
       "party_affiliation": null,
       "filer_id": 1384926,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
+        "contributions_received": 9622.0,
+        "total_contributions": 9622.0,
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
@@ -95,8 +95,8 @@
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
+      "contributions_received": 9622.0,
+      "total_contributions": 9622.0,
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {

@@ -21,8 +21,8 @@
       "party_affiliation": "Democrat",
       "filer_id": 1388731,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
+        "contributions_received": 1000.0,
+        "total_contributions": 1000.0,
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
@@ -36,8 +36,8 @@
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
+      "contributions_received": 1000.0,
+      "total_contributions": 1000.0,
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
@@ -66,8 +66,8 @@
       "party_affiliation": null,
       "filer_id": 1386932,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
+        "contributions_received": 11504.0,
+        "total_contributions": 11504.0,
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
@@ -82,8 +82,8 @@
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
+      "contributions_received": 11504.0,
+      "total_contributions": 11504.0,
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {
@@ -113,8 +113,8 @@
       "party_affiliation": null,
       "filer_id": 1387905,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
+        "contributions_received": 39776.0,
+        "total_contributions": 39776.0,
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
@@ -132,8 +132,8 @@
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
+      "contributions_received": 39776.0,
+      "total_contributions": 39776.0,
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {

@@ -60,8 +60,8 @@
       "party_affiliation": "Democrat",
       "filer_id": 1303019,
       "supporting_money": {
-        "contributions_received": null,
-        "total_contributions": null,
+        "contributions_received": 18823.0,
+        "total_contributions": 18823.0,
         "total_expenditures": null,
         "total_loans_received": null,
         "contributions_by_type": {
@@ -82,8 +82,8 @@
       "opposing_money": {
         "contributions_received": 0
       },
-      "contributions_received": null,
-      "total_contributions": null,
+      "contributions_received": 18823.0,
+      "total_contributions": 18823.0,
       "total_expenditures": null,
       "total_loans_received": null,
       "contributions_by_type": {

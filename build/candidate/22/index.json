@@ -16,8 +16,8 @@
   "party_affiliation": null,
   "filer_id": 1388133,
   "supporting_money": {
-    "contributions_received": null,
-    "total_contributions": null,
+    "contributions_received": 7536.0,
+    "total_contributions": 7536.0,
     "total_expenditures": null,
     "total_loans_received": null,
     "contributions_by_type": {
@@ -32,8 +32,8 @@
   "opposing_money": {
     "contributions_received": 0
   },
-  "contributions_received": null,
-  "total_contributions": null,
+  "contributions_received": 7536.0,
+  "total_contributions": 7536.0,
   "total_expenditures": null,
   "total_loans_received": null,
   "contributions_by_type": {

@@ -6,26 +6,26 @@ class TotalExpendituresCalculator
 
   def fetch
     results = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT "FilerStateId", SUM("Amount_A") AS "Amount_A"
+      SELECT "FilerLocalId", SUM("Amount_A") AS "Amount_A"
       FROM "efile_COAK_2016_Summary"
-      WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
+      WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F460'
       AND "Line_Item" = '11'
-      GROUP BY "FilerStateId"
-      ORDER BY "FilerStateId"
+      GROUP BY "FilerLocalId"
+      ORDER BY "FilerLocalId"
     SQL
 
     late_expenditures = ActiveRecord::Base.connection.execute <<-SQL
-      SELECT "FilerStateId", SUM("Calculated_Amount") AS "Amount_A"
+      SELECT "FilerLocalId", SUM("Calculated_Amount") AS "Amount_A"
       FROM "efile_COAK_2016_497"
-      WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
+      WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "', '"}')
       AND "Form_Type" = 'F497P2'
-      GROUP BY "FilerStateId"
-      ORDER BY "FilerStateId"
+      GROUP BY "FilerLocalId"
+      ORDER BY "FilerLocalId"
     SQL
 
     (results.to_a + late_expenditures.to_a).each do |result|
-      candidate = @candidates_by_filer_id[result['FilerStateId'].to_i]
+      candidate = @candidates_by_filer_id[result['FilerLocalId'].to_i]
       candidate.save_calculation(:total_expenditures, result['Amount_A'])
     end
   end

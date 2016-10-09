@@ -2,7 +2,7 @@ class ReferendumExpendituresByOrigin
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
     @committees_by_filer_id =
-      committees.where('"FilerStateId" IS NOT NULL').index_by { |c| c.FilerStateId }
+      committees.where('"FilerLocalId" IS NOT NULL').index_by { |c| c.FilerLocalId }
   end
 
   def fetch
@@ -24,13 +24,13 @@ class ReferendumExpendituresByOrigin
         contributions_by_locale.locale,
         contributions_by_locale.total
       FROM (
-        SELECT DISTINCT "FilerStateId", "Measure_Number", "Sup_Opp_Cd"
+        SELECT DISTINCT "FilerLocalId", "Measure_Number", "Sup_Opp_Cd"
         FROM "efile_COAK_2016_E-Expenditure"
         INNER JOIN oakland_name_to_number ON LOWER("Bal_Name") = LOWER("Measure_Name")
         WHERE "Bal_Name" IS NOT NULL
       ) expenditures,
       (
-        SELECT "FilerStateId",
+        SELECT "FilerLocalId",
         CASE
           WHEN LOWER("Tran_City") = 'oakland' THEN 'Within Oakland'
           WHEN UPPER("Tran_ST") = 'CA' THEN 'Within California'
@@ -38,22 +38,22 @@ class ReferendumExpendituresByOrigin
         END AS locale,
         SUM("Tran_Amt1") AS total
         FROM (
-          SELECT "FilerStateId", "Tran_City", "Tran_ST", "Tran_Amt1", "Tran_Id"
+          SELECT "FilerLocalId", "Tran_City", "Tran_ST", "Tran_Amt1", "Tran_Id"
           FROM "efile_COAK_2016_A-Contributions"
           UNION
-          SELECT "FilerStateId"::varchar, "Tran_City", "Tran_ST", "Tran_Amt1", "Tran_Id"
+          SELECT "FilerLocalId"::varchar, "Tran_City", "Tran_ST", "Tran_Amt1", "Tran_Id"
           FROM "efile_COAK_2016_C-Contributions"
           UNION
-          SELECT "FilerStateId"::varchar,
+          SELECT "FilerLocalId"::varchar,
             "Tran_City" as "Tran_City",
             "Tran_ST" as "Tran_ST",
             "Calculated_Amount" as "Tran_Amt1", "Tran_Id"
           FROM "efile_COAK_2016_497"
           WHERE "Form_Type" = 'F497P1'
         ) contributions
-        GROUP BY "FilerStateId", locale
+        GROUP BY "FilerLocalId", locale
       ) contributions_by_locale
-      WHERE expenditures."FilerStateId" = contributions_by_locale."FilerStateId"
+      WHERE expenditures."FilerLocalId" = contributions_by_locale."FilerLocalId"
       ORDER BY expenditures."Measure_Number", expenditures."Sup_Opp_Cd", contributions_by_locale.locale;
     SQL
 

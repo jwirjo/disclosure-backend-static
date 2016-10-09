@@ -95,6 +95,7 @@ import2: downloads/netfile_COAK_2016_Summary.csv downloads/netfile_COAK_2016_Tra
 	echo 'CREATE TABLE "office_elections" (id SERIAL PRIMARY KEY, name VARCHAR(255));' | psql disclosure-backend
 	echo 'CREATE TABLE "calculations" (id SERIAL PRIMARY KEY, subject_id integer, subject_type varchar(30), name varchar(40), value jsonb);' | psql disclosure-backend
 	./remove_duplicate_transactions.sh
+	echo 'ALTER TABLE oakland_committees RENAME COLUMN "NetfileLocalId" TO "FilerLocalId";' | psql disclosure-backend
 	echo 'ALTER TABLE oakland_committees RENAME COLUMN "Filer_ID" TO "FilerStateId";' | psql disclosure-backend
 	echo 'ALTER TABLE oakland_committees RENAME COLUMN "Filer_NamL" TO "FilerName";' | psql disclosure-backend
 

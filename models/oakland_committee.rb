@@ -19,6 +19,7 @@ class OaklandCommittee < ActiveRecord::Base
       id: id,
       filer_id: self['FilerStateId'],
       name: self['FilerName'],
+      netfild_id: self['FilerLocalId'],
 
       website_url: self['Website'],
       city: self['City'],

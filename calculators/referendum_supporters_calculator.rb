@@ -2,34 +2,34 @@ class ReferendumSupportersCalculator
   def initialize(candidates: [], ballot_measures: [], committees: [])
     @ballot_measures = ballot_measures
     @committees_by_filer_id =
-      committees.where('"FilerStateId" IS NOT NULL').index_by { |c| c.FilerStateId }
+      committees.where('"FilerLocalId" IS NOT NULL').index_by { |c| c.FilerLocalId }
   end
 
   def fetch
     # UNION Schedle E with the 24-Hour IEs from 496.
     expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-      SELECT "FilerStateId"::varchar, "FilerName", "Bal_Name", "Sup_Opp_Cd",
+      SELECT "FilerLocalId"::varchar, "FilerName", "Bal_Name", "Sup_Opp_Cd",
         SUM("Calculated_Amount") AS "Total_Calculated_Amount"
       FROM (
-        SELECT "FilerStateId", "FilerName", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
+        SELECT "FilerLocalId", "FilerName", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
         FROM "efile_COAK_2016_E-Expenditure"
         WHERE "Bal_Name" IS NOT NULL
         UNION
-        SELECT "FilerStateId"::varchar, "FilerName", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
+        SELECT "FilerLocalId"::varchar, "FilerName", "Bal_Name", "Sup_Opp_Cd", "Calculated_Amount"
         FROM "efile_COAK_2016_496"
         WHERE "Bal_Name" IS NOT NULL
       ) as U
-      GROUP BY "FilerStateId", "FilerName", "Bal_Name", "Sup_Opp_Cd"
+      GROUP BY "FilerLocalId", "FilerName", "Bal_Name", "Sup_Opp_Cd"
 
       UNION
-      SELECT "FilerStateId"::varchar, "FilerName", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
+      SELECT "FilerLocalId"::varchar, "FilerName", "Bal_Name", 'Unknown' as "Sup_Opp_Cd",
         SUM("Calculated_Amount") AS "Total_Calculated_Amount"
       FROM "efile_COAK_2016_497"
       WHERE "Bal_Name" IS NOT NULL
       AND "Form_Type" = 'F497P2'
-      GROUP BY "FilerStateId", "FilerName", "Bal_Name"
+      GROUP BY "FilerLocalId", "FilerName", "Bal_Name"
 
-      ORDER BY "FilerStateId", "FilerName"
+      ORDER BY "FilerLocalId", "FilerName"
     SQL
 
     supporting_by_measure_name = {}
@@ -51,27 +51,27 @@ class ReferendumSupportersCalculator
 
       if row['Sup_Opp_Cd'] == 'Unknown'
         # TODO: track number of guesses (#35)
-        row['Sup_Opp_Cd'] = guess_whether_committee_supports_measure(row['FilerStateId'], row['Bal_Name'])
+        row['Sup_Opp_Cd'] = guess_whether_committee_supports_measure(row['FilerLocalId'], row['Bal_Name'])
       end
 
       if row['Sup_Opp_Cd'] == 'S'
         supporting_by_measure_name[bal_num] ||= {}
-        supporting_by_measure_name[bal_num][row['FilerStateId']] ||= {
-          id: committee ? committee['FilerStateId'] : nil,
+        supporting_by_measure_name[bal_num][row['FilerLocalId']] ||= {
+          id: committee ? committee['FilerLocalId'] : nil,
           name: committee ? committee['FilerName'] : row['FilerName'],
           payee: committee ? committee['FilerName'] : row['FilerName'],
           amount: 0,
         }
-        supporting_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Calculated_Amount']
+        supporting_by_measure_name[bal_num][row['FilerLocalId']][:amount] += row['Total_Calculated_Amount']
       elsif row['Sup_Opp_Cd'] == 'O'
         opposing_by_measure_name[bal_num] ||= {}
-        opposing_by_measure_name[bal_num][row['FilerStateId']] ||= {
-          id: committee ? committee['FilerStateId'] : nil,
+        opposing_by_measure_name[bal_num][row['FilerLocalId']] ||= {
+          id: committee ? committee['FilerLocalId'] : nil,
           name: committee ? committee['FilerName'] : row['FilerName'],
           payee: committee ? committee['FilerName'] : row['FilerName'],
           amount: 0,
         }
-        opposing_by_measure_name[bal_num][row['FilerStateId']][:amount] += row['Total_Calculated_Amount']
+        opposing_by_measure_name[bal_num][row['FilerLocalId']][:amount] += row['Total_Calculated_Amount']
       elsif
         $stderr.puts "unknown support: #{row}"
       end
@@ -97,7 +97,7 @@ class ReferendumSupportersCalculator
   end
 
   def committee_from_expenditure(expenditure)
-    committee = @committees_by_filer_id[expenditure['FilerStateId']]
+    committee = @committees_by_filer_id[expenditure['FilerLocalId']]
 
     unless committee
       @committees_by_filer_id.each do |id, cmte|
@@ -120,14 +120,14 @@ class ReferendumSupportersCalculator
     @_guess_cache ||=
       begin
         guesses = ActiveRecord::Base.connection.execute(<<-SQL)
-          SELECT "FilerStateId", "Bal_Name", "Sup_Opp_Cd"
+          SELECT "FilerLocalId", "Bal_Name", "Sup_Opp_Cd"
           FROM "efile_COAK_2016_E-Expenditure"
           WHERE "Bal_Name" IS NOT NULL
-          GROUP BY "FilerStateId", "Bal_Name", "Sup_Opp_Cd"
+          GROUP BY "FilerLocalId", "Bal_Name", "Sup_Opp_Cd"
         SQL
 
         guesses.index_by do |row|
-          row.values_at('FilerStateId', 'Bal_Name').map(&:to_s)
+          row.values_at('FilerLocalId', 'Bal_Name').map(&:to_s)
         end
       end
 

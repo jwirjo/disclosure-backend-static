@@ -69,25 +69,25 @@ class CandidateExpendituresByType
       # except those that are already in Schedule E.  Note that
       # Tran_Code is not set in 496 so we cannot just UNION them out.
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "FilerStateId", "Tran_Code", SUM("Calculated_Amount") AS "Total"
+        SELECT "FilerLocalId", "Tran_Code", SUM("Calculated_Amount") AS "Total"
         FROM
           (
-          SELECT "FilerStateId", "Tran_Code", "Calculated_Amount"
+          SELECT "FilerLocalId", "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_E-Expenditure"
           UNION ALL
-          SELECT "FPPC"::varchar AS "FilerStateId", '' AS "Tran_Code", "Calculated_Amount"
+          SELECT "FPPC"::varchar AS "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'S'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
-              WHERE "outer"."FilerStateId"::varchar = "inner"."FilerStateId"
+              WHERE "outer"."FilerLocalId"::varchar = "inner"."FilerLocalId"
               AND "outer"."Tran_Date" = "inner"."Tran_Date"
               AND "outer"."Calculated_Amount" = "inner"."Calculated_Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
           ) U
-        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Tran_Code", "FilerStateId"
-        ORDER BY "Tran_Code", "FilerStateId"
+        WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Tran_Code", "FilerLocalId"
+        ORDER BY "Tran_Code", "FilerLocalId"
       SQL
 
       # 497 does not contain "Tran_Code" making this calculator pretty useless
@@ -95,17 +95,17 @@ class CandidateExpendituresByType
       # To make the numbers line up closer, we'll bucket those all under "Not
       # Stated".
       late_expenditures = ActiveRecord::Base.connection.execute(<<-SQL)
-        SELECT "FilerStateId", '' AS "Tran_Code", SUM("Calculated_Amount") AS "Total"
+        SELECT "FilerLocalId", '' AS "Tran_Code", SUM("Calculated_Amount") AS "Total"
         FROM "efile_COAK_2016_497"
-        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
         AND "Form_Type" = 'F497P2'
-        GROUP BY "FilerStateId"
-        ORDER BY "FilerStateId"
+        GROUP BY "FilerLocalId"
+        ORDER BY "FilerLocalId"
       SQL
 
       (results.to_a + late_expenditures.to_a).each do |result|
-        hash[result['FilerStateId']] ||= {}
-        hash[result['FilerStateId']][result['Tran_Code']] = result['Total']
+        hash[result['FilerLocalId']] ||= {}
+        hash[result['FilerLocalId']][result['Tran_Code']] = result['Total']
       end
     end
   end
@@ -117,31 +117,31 @@ class CandidateExpendituresByType
       # except those that are already in Schedule E.  Note that
       # Tran_Code is not set in 496 so we cannot just UNION them out.
       results = ActiveRecord::Base.connection.execute <<-SQL
-        SELECT "FilerStateId", "Tran_Code", SUM("Calculated_Amount") AS "Total"
+        SELECT "FilerLocalId", "Tran_Code", SUM("Calculated_Amount") AS "Total"
         FROM
-          (SELECT "FPPC"::varchar AS "FilerStateId", "Tran_Code", "Calculated_Amount"
+          (SELECT "FPPC"::varchar AS "FilerLocalId", "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_E-Expenditure", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           UNION ALL
-          SELECT "FPPC"::varchar AS "FilerStateId", '' AS "Tran_Code", "Calculated_Amount"
+          SELECT "FPPC"::varchar AS "FilerLocalId", '' AS "Tran_Code", "Calculated_Amount"
           FROM "efile_COAK_2016_496" AS "outer", "oakland_candidates"
           WHERE "Sup_Opp_Cd" = 'O'
           AND lower("Candidate") = lower(trim(concat("Cand_NamF", ' ', "Cand_NamL")))
           AND NOT EXISTS (SELECT 1 from "efile_COAK_2016_E-Expenditure" AS "inner"
-              WHERE "outer"."FilerStateId"::varchar = "inner"."FilerStateId"
+              WHERE "outer"."FilerLocalId"::varchar = "inner"."FilerLocalId"
               AND "outer"."Tran_Date" = "inner"."Tran_Date"
               AND "outer"."Calculated_Amount" = "inner"."Calculated_Amount"
               AND "outer"."Cand_NamL" = "inner"."Cand_NamL")
           ) U
-        WHERE "FilerStateId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
-        GROUP BY "Tran_Code", "FilerStateId"
-        ORDER BY "Tran_Code", "FilerStateId"
+        WHERE "FilerLocalId" IN ('#{@candidates_by_filer_id.keys.join "','"}')
+        GROUP BY "Tran_Code", "FilerLocalId"
+        ORDER BY "Tran_Code", "FilerLocalId"
       SQL
 
       results.to_a.each do |result|
-        hash[result['FilerStateId']] ||= {}
-        hash[result['FilerStateId']][result['Tran_Code']] = result['Total']
+        hash[result['FilerLocalId']] ||= {}
+        hash[result['FilerLocalId']][result['Tran_Code']] = result['Total']
       end
     end
   end

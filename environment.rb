@@ -11,4 +11,4 @@ class PrettyJSONEncoder < ActiveSupport::JSON::Encoding::JSONGemEncoder
     ::JSON.pretty_generate(jsonified, quirks_mode: true, max_nesting: false)
   end
 end
-ActiveSupport.json_encoder = PrettyJSONEncoder
+# ActiveSupport.json_encoder = PrettyJSONEncoder

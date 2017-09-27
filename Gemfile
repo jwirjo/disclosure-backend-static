@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'activerecord'
+gem 'elasticsearch'
 gem 'sinatra'
 gem 'pg'
 gem 'puma'

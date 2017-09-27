@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+# Index all the records
+require 'elasticsearch'
+require_relative '../environment.rb'
+
+ENV['ELASTICSEARCH_URL'] ||= 'http://localhost'
+
+QUERY = <<-SQL
+SELECT "Tran_NamL", "Tran_NamF", "Tran_NamT", "Tran_NamS", "Tran_City", "Tran_State", "Tran_Zip4", "Tran_Emp", SUM("Tran_Amt1") FROM
+(
+  SELECT "Tran_NamL", "Tran_NamF", "Tran_NamT", "Tran_NamS", "Tran_City", "Tran_State", "Tran_Zip4"::varchar, "Tran_Emp", "Tran_Amt1"
+  FROM public."efile_COAK_2016_A-Contributions"
+  WHERE "Tran_Self" = false
+  UNION ALL
+  SELECT "Tran_NamL", "Tran_NamF", "Tran_NamT", "Tran_NamS", "Tran_City", "Tran_State", "Tran_Zip4"::varchar, "Tran_Emp", "Tran_Amt1"
+  FROM public."efile_COAK_2017_A-Contributions"
+  WHERE "Tran_Self" = false
+) all_contributions 
+WHERE "Tran_NamL" IS NOT NULL
+GROUP BY
+  "Tran_NamL", "Tran_NamF", "Tran_NamT", "Tran_NamS", "Tran_City", "Tran_State", "Tran_Zip4", "Tran_Emp";
+SQL
+
+def index_statements(query_result, index = 'contributors')
+  [
+    { index: { _index: index, _type: 'contributor' } },
+    query_result.to_hash
+  ]
+end
+
+client = Elasticsearch::Client.new(log: false)
+begin
+  client.indices.get(index: 'contributors')
+  puts 'Deleting Index...'
+  client.indices.delete index: 'contributors'
+rescue
+end
+
+puts 'Creating Index...'
+client.indices.create index: 'contributors'
+
+ActiveRecord::Base.connection.execute(QUERY).each_slice(1000) do |batch|
+  puts 'Indexing batch of 1000...'
+  client.bulk body: batch.flat_map { |row| index_statements(row) }
+end
+
+# puts client.cluster.health

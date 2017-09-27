@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+require 'elasticsearch'
+
+ENV['ELASTICSEARCH_URL'] ||= 'http://localhost'
+
+def name_query(name)
+  {
+    query: {
+      match: {
+        Tran_NamL: name
+      }
+    }
+  }
+end
+
+def format_hit(hit)
+  source = hit['_source']
+
+  "#{source['Tran_NamF']} #{source['Tran_NamL']} - #{source['Tran_Zip4']} - $#{source['sum']}"
+end
+
+client = Elasticsearch::Client.new(log: false)
+
+while
+  $stdout.write '> '
+  query = (gets || '').chomp
+  break if query.empty?
+  res = client.search(index: 'contributors', body: name_query(query))
+
+  puts "#{res['hits']['total']} hits:"
+  hits = res['hits']['hits']
+  hits.each do |hit|
+    puts format_hit(hit)
+  end
+end

@@ -14,9 +14,21 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.1)
     concurrent-ruby (1.0.2)
+    elasticsearch (5.0.4)
+      elasticsearch-api (= 5.0.4)
+      elasticsearch-transport (= 5.0.4)
+    elasticsearch-api (5.0.4)
+      multi_json
+    elasticsearch-transport (5.0.4)
+      faraday
+      multi_json
+    faraday (0.13.1)
+      multipart-post (>= 1.2, < 3)
     i18n (0.7.0)
     mini_portile2 (2.2.0)
     minitest (5.9.0)
+    multi_json (1.12.2)
+    multipart-post (2.0.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     pg (0.18.4)
@@ -44,6 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  elasticsearch
   pg
   puma
   roo

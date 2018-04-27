@@ -32,7 +32,7 @@ class ReferendumExpendituresByOrigin
         contributions_by_locale.locale,
         SUM(contributions_by_locale.total) as total
       FROM "oakland_committees" committees, contributions_by_locale
-      WHERE committees."Filer_ID" = contributions_by_locale."Filer_ID"
+      WHERE committees."Filer_ID"::varchar = contributions_by_locale."Filer_ID"::varchar
       GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_locale.locale;
     SQL

@@ -38,7 +38,7 @@ class ReferendumExpendituresByType
         contributions_by_type.type,
         SUM(contributions_by_type.total) as total
       FROM "oakland_committees" committees, contributions_by_type
-      WHERE committees."Filer_ID" = contributions_by_type."Filer_ID"
+      WHERE committees."Filer_ID"::varchar = contributions_by_type."Filer_ID"::varchar
       GROUP BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type
       ORDER BY "Ballot_Measure", "Support_Or_Oppose", contributions_by_type.type;
     SQL
